@@ -15,7 +15,7 @@
       "volume": "1 ml",
       "use_action": {
         "type": "cast_spell",
-        "spell_id":"",
+        "spell_id":"multate_XIAN_0",
         "no_fail": true,
         "level": 1,
         "need_wielding": true
@@ -38,7 +38,7 @@
         "volume": "1 ml",
         "use_action": {
             "type": "cast_spell",
-            "spell_id":"",
+            "spell_id":"multate_XIAN_1",
             "no_fail": true,
             "level": 1,
             "need_wielding": true
@@ -61,7 +61,7 @@
         "volume": "1 ml",
         "use_action": {
             "type": "cast_spell",
-            "spell_id":"",
+            "spell_id":"multate_XIAN_2",
             "no_fail": true,
             "level": 1,
             "need_wielding": true
@@ -84,7 +84,7 @@
         "volume": "1 ml",
         "use_action": {
             "type": "cast_spell",
-            "spell_id":"",
+            "spell_id":"multate_XIAN_3",
             "no_fail": true,
             "level": 1,
             "need_wielding": true
@@ -107,7 +107,7 @@
         "volume": "1 ml",
         "use_action": {
             "type": "cast_spell",
-            "spell_id":"",
+            "spell_id":"multate_XIAN_4",
             "no_fail": true,
             "level": 1,
             "need_wielding": true
@@ -130,7 +130,7 @@
         "volume": "1 ml",
         "use_action": {
             "type": "cast_spell",
-            "spell_id":"",
+            "spell_id":"multate_XIAN_5",
             "no_fail": true,
             "level": 1,
             "need_wielding": true
@@ -153,7 +153,7 @@
         "volume": "1 ml",
         "use_action": {
             "type": "cast_spell",
-            "spell_id":"",
+            "spell_id":"multate_XIAN_6",
             "no_fail": true,
             "level": 1,
             "need_wielding": true
@@ -176,7 +176,7 @@
         "volume": "1 ml",
         "use_action": {
             "type": "cast_spell",
-            "spell_id":"",
+            "spell_id":"multate_XIAN_7",
             "no_fail": true,
             "level": 1,
             "need_wielding": true
@@ -199,7 +199,7 @@
         "volume": "1 ml",
         "use_action": {
             "type": "cast_spell",
-            "spell_id":"",
+            "spell_id":"multate_XIAN_8",
             "no_fail": true,
             "level": 1,
             "need_wielding": true
@@ -222,7 +222,7 @@
         "volume": "1 ml",
         "use_action": {
           "type": "cast_spell",
-          "spell_id":"",
+          "spell_id":"multate_XIAN_9",
           "no_fail": true,
           "level": 1,
           "need_wielding": true
