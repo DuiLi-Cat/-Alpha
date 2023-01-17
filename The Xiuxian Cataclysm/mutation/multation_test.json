@@ -1,7 +1,7 @@
 [
     {
         "type": "SPELL",
-        "id": "teach_lightning_bolt",
+        "id": "multate_XIAN",
         "name": { "str": "成仙" },
         "effect": "mutate",
         "shape": "blast",
@@ -14,7 +14,7 @@
         "valid_targets": [ "self" ]
     },
     {
-        "id": "fake_bomb_vibe",
+        "id": "xiandan_1",
         "type": "TOOL",
         "symbol": ";",
         "color": "light_gray",
