@@ -1,0 +1,27 @@
+[
+    {
+        "type": "overmap_terrain",
+        "id": "test_1",
+        "name": "test_1",
+        "sym": "T",
+        "color": "red",
+        "see_cost": 50,
+        "extras": "field",
+        "mondensity": 2,
+        "spawns": { "group": "GROUP_FOREST", "population": [ 0, 1 ], "chance": 13 },
+        "flags": [ "NO_ROTATE" ]
+    },
+    {
+        "type": "overmap_terrain",
+        "id": "test_1_roof",
+        "name": "test_1_roof",
+        "sym": "T",
+        "color": "red",
+        "see_cost": 50,
+        "extras": "field",
+        "mondensity": 2,
+        "spawns": { "group": "GROUP_FOREST", "population": [ 0, 1 ], "chance": 13 },
+        "flags": [ "NO_ROTATE" ]
+    }
+
+]

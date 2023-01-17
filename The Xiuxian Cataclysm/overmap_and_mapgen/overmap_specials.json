@@ -1,0 +1,18 @@
+[
+    {
+      "type": "overmap_special",
+      "id": "test_1",
+      "overmaps": [
+        { "point": [ 0, 0, 0 ], "overmap": "test_1", "locations": [ "field" ] },
+        { "point": [ 0, 0, 1 ], "overmap": "test_1_roof" }
+      ],
+      "connections": [ { "point": [ 1, -1, 0 ], "terrain": "road", "connection": "local_road", "from": [ 1, 0, 0 ] } ],
+      "locations": [ "forest" ],
+      "city_distance": [ 10, -1 ],
+      "city_sizes": [ 3, 12 ],
+      "occurrences": [ 0, 5 ],
+      "flags": [ "CLASSIC" ],
+      "rotate" : false
+    }
+  ]
+  
