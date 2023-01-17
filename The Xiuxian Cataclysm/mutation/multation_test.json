@@ -24,7 +24,7 @@
         "description": "一颗仙丹，服用后使凡人成仙。",
         "use_action": {
             "type": "cast_spell",
-            "spell_id": "burning_hands",
+            "spell_id": "multate_XIAN",
             "level": 0,
             "no_fail": true
         }
