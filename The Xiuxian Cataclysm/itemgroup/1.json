@@ -27,5 +27,65 @@
     "entries":[
        { "item": "manual_pool_deep_pearl", "prob": 100 }
    ]
+  },
+  {
+    "type": "item_group",
+    "id": "An_alchemy_book_group_1",
+    "//": "炼丹书物品组1",
+    "subtype": "distribution",
+    "entries":[
+       { "item": "An_alchemy_book1", "prob": 90 },
+       { "item": "An_alchemy_book2", "prob": 80 },
+       { "item": "An_alchemy_book3", "prob": 70 },
+       { "item": "An_alchemy_book4", "prob": 60 },
+       { "item": "An_alchemy_book5", "prob": 40 },
+       { "item": "An_alchemy_book6", "prob": 20 },
+       { "item": "An_alchemy_book7", "prob": 5 }
+   ]
+  },
+  {
+    "type": "item_group",
+    "id": "law_book_group_1",
+    "//": "阵法书物品组1",
+    "subtype": "distribution",
+    "entries":[
+       { "item": "law_book1", "prob": 90 },
+       { "item": "law_book2", "prob": 80 },
+       { "item": "law_book3", "prob": 70 },
+       { "item": "law_book4", "prob": 60 },
+       { "item": "law_book5", "prob": 40 },
+       { "item": "law_book6", "prob": 20 },
+       { "item": "law_book7", "prob": 5 }
+   ]
+  },
+  {
+    "type": "item_group",
+    "id": "Refining_apparatus_book_group_1",
+    "//": "炼器书物品组1",
+    "subtype": "distribution",
+    "entries":[
+       { "item": "Refining_apparatus_book1", "prob": 90 },
+       { "item": "Refining_apparatus_book2", "prob": 80 },
+       { "item": "Refining_apparatus_book3", "prob": 70 },
+       { "item": "Refining_apparatus_book4", "prob": 60 },
+       { "item": "Refining_apparatus_book5", "prob": 40 },
+       { "item": "Refining_apparatus_book6", "prob": 20 },
+       { "item": "Refining_apparatus_book7", "prob": 5 }
+   ]
+  },
+  {
+    "type": "item_group",
+    "id": "wine_book_group_1",
+    "//": "酿酒书物品组1",
+    "subtype": "distribution",
+    "entries":[
+       { "item": "wine_book1", "prob": 90 },
+       { "item": "wine_book2", "prob": 80 },
+       { "item": "wine_book3", "prob": 70 },
+       { "item": "wine_book4", "prob": 60 },
+       { "item": "wine_book5", "prob": 40 },
+       { "item": "wine_book6", "prob": 20 },
+       { "item": "wine_book7", "prob": 5 }
+   ]
   }
 ]
