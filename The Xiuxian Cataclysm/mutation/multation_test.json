@@ -29,12 +29,12 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_2,
+        "id": "multate_XIAN_2",
         "name": { "str": "筑基" },
         "effect": "mutate",
         "shape": "blast",
         "effect_str": "ZHU_JI_XIAN",
-        "description": "令修仙者提升到炼气期的法术",
+        "description": "令修仙者提升到筑基期的法术",
         "message": "你感到自己神识倍增，丹田凝聚为液状……",
         "min_damage": 10000,
         "max_damage": 10000,
@@ -43,7 +43,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_3,
+        "id": "multate_XIAN_3",
         "name": { "str": "金丹" },
         "effect": "mutate",
         "shape": "blast",
@@ -57,7 +57,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_4,
+        "id": "multate_XIAN_4",
         "name": { "str": "元婴" },
         "effect": "mutate",
         "shape": "blast",
@@ -71,7 +71,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_5,
+        "id": "multate_XIAN_5",
         "name": { "str": "化神" },
         "effect": "mutate",
         "shape": "blast",
@@ -85,7 +85,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_6,
+        "id": "multate_XIAN_6",
         "name": { "str": "炼虚" },
         "effect": "mutate",
         "shape": "blast",
@@ -99,7 +99,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_7,
+        "id": "multate_XIAN_7",
         "name": { "str": "合体" },
         "effect": "mutate",
         "shape": "blast",
@@ -113,7 +113,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_8,
+        "id": "multate_XIAN_8",
         "name": { "str": "大乘" },
         "effect": "mutate",
         "shape": "blast",
@@ -127,8 +127,8 @@
     },
 {
         "type": "SPELL",
-        "id": "multate_XIAN_9,
-        "name": { "str": "渡劫 },
+        "id": "multate_XIAN_9",
+        "name": { "str": "渡劫" },
         "effect": "mutate",
         "shape": "blast",
         "effect_str": "DI_JIE_XIAN",
