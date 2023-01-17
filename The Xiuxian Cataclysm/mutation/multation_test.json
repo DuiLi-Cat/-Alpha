@@ -1,0 +1,31 @@
+[
+    {
+        "type": "SPELL",
+        "id": "teach_lightning_bolt",
+        "name": { "str": "成仙" },
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "XIAN",
+        "description": "令凡人肉身成仙的法术",
+        "message": "你感到自己的血肉之躯逐渐羽化登仙……",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT", "RANDOM_TARGET" ],
+        "valid_targets": [ "self" ]
+    },
+    {
+        "id": "fake_bomb_vibe",
+        "type": "TOOL",
+        "symbol": ";",
+        "color": "light_gray",
+        "weight": "1 g",
+        "volume": "1 ml",
+        "name": {"str": "仙丹"},
+        "description": "一颗仙丹，服用后使凡人成仙。",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id": "burning_hands",
+            "no_fail": true
+        }
+    }
+]
