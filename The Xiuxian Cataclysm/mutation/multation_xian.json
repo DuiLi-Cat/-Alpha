@@ -1,11 +1,12 @@
 [
     {
         "type": "SPELL",
-        "id": "multate_XIAN_0",
+        "id": "multate_XIAN_base",
         "name": { "str": "成仙" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "XIAN_2", 
+        "effect_str": "XIAN_1", 
+        "extra_effects":[{"id":"multate_XIAN_0"}],
         "description": "令凡人肉身成仙的法术",
         "message": "你选择了修仙……",
         "min_damage": 10000,
@@ -13,6 +14,20 @@
         "flags": [ "SILENT", "MUTATE_TRAIT" ], 
         "valid_targets": [ "self" ],
         "//":"这个要'XIAN_2'和'XIAN_1'两个变异"
+    },
+    {
+        "type": "SPELL",
+        "id": "multate_XIAN_0",
+        "name": { "str": "成仙" },
+        "effect": "mutate",
+        "shape": "blast",
+        "effect_str": "XIAN_2", 
+        "description": "获得仙修一级",
+        "message": " ",
+        "min_damage": 10000,
+        "max_damage": 10000,
+        "flags": [ "SILENT", "MUTATE_TRAIT" ], 
+        "valid_targets": [ "self" ]
     },
     {
         "type": "SPELL",
