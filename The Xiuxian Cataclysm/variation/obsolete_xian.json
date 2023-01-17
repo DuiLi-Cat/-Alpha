@@ -32,7 +32,6 @@
     "fatigue_modifier" : 0.95,
     "stamina_regen_modifier" : 1.05,
     "overmap_sight" : 5,
-    "category": ["xian1"],
     "threshreq": ["XIAN"],
     "changes_to" : ["ZHU_JI_XIAN"]
  },
@@ -57,7 +56,6 @@
     "fatigue_modifier" : 0.90,
     "stamina_regen_modifier" : 1.1,
     "overmap_sight" : 10,
-    "category": ["xian2"],
     "threshreq": ["XIAN"],
     "changes_to" : ["JIN_DAN_XIAN"],
     "prereqs" : ["LIAN_QI_XIAN"]
@@ -83,7 +81,6 @@
     "fatigue_modifier" : 0.85,
     "stamina_regen_modifier" : 1.1,
     "overmap_sight" : 15,
-    "category": ["xian3"],
     "threshreq": ["XIAN"],
     "changes_to" : ["YUAN_YING_XIAN"],
     "prereqs" : ["ZHU_JI_XIAN"]
@@ -109,7 +106,6 @@
     "fatigue_modifier" : 0.8,
     "stamina_regen_modifier" : 1.15,
     "overmap_sight" : 20,
-    "category": ["xian4"],
     "threshreq": ["XIAN"],
     "changes_to" : ["HUA_SHEN_XIAN"],
     "prereqs" : ["JIN_DAN_XIAN"]
@@ -135,7 +131,6 @@
     "fatigue_modifier" : 0.75,
     "stamina_regen_modifier" : 1.15,
     "overmap_sight" : 25,
-    "category": ["xian5"],
     "threshreq": ["XIAN"],
     "changes_to" : ["LIAN_XU_XIAN"],
     "prereqs" : ["YUAN_YING_XIAN"]
@@ -161,7 +156,6 @@
     "fatigue_modifier" : 0.7,
     "stamina_regen_modifier" : 1.2,
     "overmap_sight" : 30,
-    "category": ["xian6"],
     "threshreq": ["XIAN"],
     "changes_to" : ["HE_TI_XIAN"],
     "prereqs" : ["HUA_SHEN_XIAN"]
@@ -187,7 +181,6 @@
     "fatigue_modifier" : 0.65,
     "stamina_regen_modifier" : 1.25,
     "overmap_sight" : 35,
-    "category": ["xian7"],
     "threshreq": ["XIAN"],
     "changes_to" : ["DA_CHENG_XIAN"],
     "prereqs" : ["LIAN_XU_XIAN"]
@@ -214,7 +207,6 @@
     "stamina_regen_modifier" : 1.3,
     "overmap_sight" : 40,
     "threshreq": ["XIAN"],
-    "category": ["xian8"],
     "changes_to" : ["DU_JIE_XIAN"],
     "prereqs" : ["HE_TI_XIAN"]
  },
@@ -239,7 +231,6 @@
     "fatigue_modifier" : 0.55,
     "stamina_regen_modifier" : 1.35,
     "overmap_sight" : 50,
-    "category": ["xian9"],
     "threshreq": ["XIAN"],
     "prereqs" : ["DA_CHENG_XIAN"]
  }

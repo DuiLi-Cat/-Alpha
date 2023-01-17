@@ -1,0 +1,232 @@
+[
+    {
+      "id": "realm_lifting_pill_xian_0",
+      "type": "TOOL",
+      "category": "other",
+      "symbol": "S",
+      "color": "white",
+      "name": {"str": "修为提升丹LV.0（仙）"},
+      "description": "提升修为用",
+      "price": "1000 USD",
+      "material": [
+        "lingqi"
+      ],
+      "weight": "1 g",
+      "volume": "1 ml",
+      "use_action": {
+        "type": "cast_spell",
+        "spell_id":"",
+        "no_fail": true,
+        "level": 1,
+        "need_wielding": true
+
+      }
+    },
+    {
+        "id": "realm_lifting_pill_xian_1",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.1（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id":"",
+            "no_fail": true,
+            "level": 1,
+            "need_wielding": true
+  
+          }
+    },
+    {
+        "id": "realm_lifting_pill_xian_2",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.2（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id":"",
+            "no_fail": true,
+            "level": 1,
+            "need_wielding": true
+  
+          }
+    },
+    {
+        "id": "realm_lifting_pill_xian_3",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.3（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id":"",
+            "no_fail": true,
+            "level": 1,
+            "need_wielding": true
+  
+          }
+    },
+    {
+        "id": "realm_lifting_pill_xian_4",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.4（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id":"",
+            "no_fail": true,
+            "level": 1,
+            "need_wielding": true
+  
+          }
+    },
+    {
+        "id": "realm_lifting_pill_xian_5",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.5（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id":"",
+            "no_fail": true,
+            "level": 1,
+            "need_wielding": true
+  
+          }
+    },
+    {
+        "id": "realm_lifting_pill_xian_6",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.6（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id":"",
+            "no_fail": true,
+            "level": 1,
+            "need_wielding": true
+  
+          }
+    },
+    {
+        "id": "realm_lifting_pill_xian_7",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.7（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id":"",
+            "no_fail": true,
+            "level": 1,
+            "need_wielding": true
+  
+          }
+    },
+    {
+        "id": "realm_lifting_pill_xian_8",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.8（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "cast_spell",
+            "spell_id":"",
+            "no_fail": true,
+            "level": 1,
+            "need_wielding": true
+  
+          }
+    },
+    {
+        "id": "realm_lifting_pill_xian_9",
+        "type": "TOOL",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "修为提升丹LV.9（仙）"},
+        "description": "提升修为用",
+        "price": "1000 USD",
+        "material": [
+          "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+          "type": "cast_spell",
+          "spell_id":"",
+          "no_fail": true,
+          "level": 1,
+          "need_wielding": true
+
+        }
+    }
+]
