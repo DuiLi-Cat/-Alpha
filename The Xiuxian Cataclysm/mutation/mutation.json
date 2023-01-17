@@ -1,0 +1,68 @@
+[
+  {
+    "type": "mutation_category",
+    "id": "mo",
+    "name": "魔",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian",
+    "name": "仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "id": "realm_lifting_pill_mo_0",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "other",
+    "symbol": "S",
+    "color": "white",
+    "name": {"str": "修为提升丹（魔）"},
+    "description": "提升修为用",
+    "price": "1000 USD",
+    "material": [
+      "lingqi"
+    ],
+    "weight": "1 g",
+    "volume": "1 ml",
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id":"",
+      "no_fail": true,
+      "level": 1,
+      "need_wielding": true
+
+    }
+  },
+  {
+    "id": "realm_lifting_pill_xian_0",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "other",
+    "symbol": "S",
+    "color": "white",
+    "name": {"str": "修为提升丹（仙）"},
+    "description": "提升修为用",
+    "price": "1000 USD",
+    "material": [
+      "lingqi"
+    ],
+    "weight": "1 g",
+    "volume": "1 ml",
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id":"multate_XIAN_0",
+      "no_fail": true,
+      "level": 1,
+      "need_wielding": true
+
+    }
+  }
+]
