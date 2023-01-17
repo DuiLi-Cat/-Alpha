@@ -5,13 +5,14 @@
         "name": { "str": "成魔" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "MO",
+        "effect_str": "MO_1",
         "description": "令凡人堕入魔道的法术",
         "message": "你选择了修魔……",
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
-        "valid_targets": [ "self" ]
+        "valid_targets": [ "self" ],
+        "//":"这个要'MO_1'和'MO_2'两个变异"
     },
     {
         "type": "SPELL",
@@ -25,6 +26,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"MO_2", 
         "valid_targets": [ "self" ]
     },
     {
@@ -39,6 +41,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"LIAN_QI_MO",
         "valid_targets": [ "self" ]
     },
     {
@@ -53,6 +56,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"ZHU_JI_MO",
         "valid_targets": [ "self" ]
     },
     {
@@ -67,6 +71,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"JIN_DAN_MO",
         "valid_targets": [ "self" ]
     },
     {
@@ -81,6 +86,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"YUAN_YING_MO",
         "valid_targets": [ "self" ]
     },
     {
@@ -95,6 +101,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"HUA_SHEN_MO",
         "valid_targets": [ "self" ]
     },
     {
@@ -109,6 +116,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"LIAN_XU_MO",
         "valid_targets": [ "self" ]
     },
     {
@@ -123,6 +131,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"HE_TI_MO",
         "valid_targets": [ "self" ]
     },
 {
@@ -137,6 +146,7 @@
         "min_damage": 10000,
         "max_damage": 10000,
         "flags": [ "SILENT", "MUTATE_TRAIT" ],
+        "spell_class":"DA_CHENG_MO",
         "valid_targets": [ "self" ]
     }
 ]

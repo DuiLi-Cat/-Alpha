@@ -1,16 +1,29 @@
 [
  {
     "type":"mutation",
-    "id":"XIAN",
-    "name":"仙修",
+    "id":"XIAN_1",
+    "name":"仙修（体系）",
     "points":1,
     "visibility":0,
     "ugliness":0,
     "description":"你选择了仙修这一途径进行修真",
     "category": ["xian"],
-    "cancels" : ["MO"],
+    "cancels" : ["MO_1"],
     "starting_trait" : true
  },
+ {
+   "type":"mutation",
+   "id":"XIAN_2",
+   "name":"仙修",
+   "points":1,
+   "visibility":0,
+   "ugliness":0,
+   "description":"你选择了仙修这一途径进行修真",
+   "spells_learned": [ [ "multate_XIAN_1", 0 ] ],
+   "changes_to" : ["LIAN_QI_XIAN"],
+   "threshreq": ["XIAN_1"],
+   "starting_trait" : true
+},
  {
     "type":"mutation",
     "id":"LIAN_QI_XIAN",
@@ -32,8 +45,10 @@
     "fatigue_modifier" : 0.95,
     "stamina_regen_modifier" : 1.05,
     "overmap_sight" : 5,
-    "threshreq": ["XIAN"],
-    "changes_to" : ["ZHU_JI_XIAN"]
+    "threshreq": ["XIAN_1"],
+    "spells_learned": [ [ "multate_XIAN_2", 0 ] ],
+    "changes_to" : ["ZHU_JI_XIAN"],
+    "prereqs" : ["XIAN_2"]
  },
  {
     "type":"mutation",
@@ -56,8 +71,9 @@
     "fatigue_modifier" : 0.90,
     "stamina_regen_modifier" : 1.1,
     "overmap_sight" : 10,
-    "threshreq": ["XIAN"],
+    "threshreq": ["XIAN_1"],
     "changes_to" : ["JIN_DAN_XIAN"],
+    "spells_learned": [ [ "multate_XIAN_3", 0 ] ],
     "prereqs" : ["LIAN_QI_XIAN"]
  },
  {
@@ -81,8 +97,9 @@
     "fatigue_modifier" : 0.85,
     "stamina_regen_modifier" : 1.1,
     "overmap_sight" : 15,
-    "threshreq": ["XIAN"],
+    "threshreq": ["XIAN_1"],
     "changes_to" : ["YUAN_YING_XIAN"],
+    "spells_learned": [ [ "multate_XIAN_4", 0 ] ],
     "prereqs" : ["ZHU_JI_XIAN"]
  },
  {
@@ -106,8 +123,9 @@
     "fatigue_modifier" : 0.8,
     "stamina_regen_modifier" : 1.15,
     "overmap_sight" : 20,
-    "threshreq": ["XIAN"],
+    "threshreq": ["XIAN_1"],
     "changes_to" : ["HUA_SHEN_XIAN"],
+    "spells_learned": [ [ "multate_XIAN_5", 0 ] ],
     "prereqs" : ["JIN_DAN_XIAN"]
  },
  {
@@ -131,8 +149,9 @@
     "fatigue_modifier" : 0.75,
     "stamina_regen_modifier" : 1.15,
     "overmap_sight" : 25,
-    "threshreq": ["XIAN"],
+    "threshreq": ["XIAN_1"],
     "changes_to" : ["LIAN_XU_XIAN"],
+    "spells_learned": [ [ "multate_XIAN_6", 0 ] ],
     "prereqs" : ["YUAN_YING_XIAN"]
  },
  {
@@ -156,8 +175,9 @@
     "fatigue_modifier" : 0.7,
     "stamina_regen_modifier" : 1.2,
     "overmap_sight" : 30,
-    "threshreq": ["XIAN"],
+    "threshreq": ["XIAN_1"],
     "changes_to" : ["HE_TI_XIAN"],
+    "spells_learned": [ [ "multate_XIAN_7", 0 ] ],
     "prereqs" : ["HUA_SHEN_XIAN"]
  },
  {
@@ -181,8 +201,9 @@
     "fatigue_modifier" : 0.65,
     "stamina_regen_modifier" : 1.25,
     "overmap_sight" : 35,
-    "threshreq": ["XIAN"],
+    "threshreq": ["XIAN_1"],
     "changes_to" : ["DA_CHENG_XIAN"],
+    "spells_learned": [ [ "multate_XIAN_8", 0 ] ],
     "prereqs" : ["LIAN_XU_XIAN"]
  },
  {
@@ -206,8 +227,9 @@
     "fatigue_modifier" : 0.6,
     "stamina_regen_modifier" : 1.3,
     "overmap_sight" : 40,
-    "threshreq": ["XIAN"],
+    "threshreq": ["XIAN_1"],
     "changes_to" : ["DU_JIE_XIAN"],
+    "spells_learned": [ [ "multate_XIAN_9", 0 ] ],
     "prereqs" : ["HE_TI_XIAN"]
  },
  {
@@ -231,7 +253,7 @@
     "fatigue_modifier" : 0.55,
     "stamina_regen_modifier" : 1.35,
     "overmap_sight" : 50,
-    "threshreq": ["XIAN"],
+    "threshreq": ["XIAN_1"],
     "prereqs" : ["DA_CHENG_XIAN"]
  }
 ]
