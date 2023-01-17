@@ -25,6 +25,7 @@
         "use_action": {
             "type": "cast_spell",
             "spell_id": "burning_hands",
+            "level": 0,
             "no_fail": true
         }
     }
