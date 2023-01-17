@@ -16,10 +16,10 @@
     {
         "type": "SPELL",
         "id": "multate_XIAN_1",
-        "name": { "str": "炼气",
+        "name": { "str": "炼气"},
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "LIAN_QI_XIAN"
+        "effect_str": "LIAN_QI_XIAN",
         "description": "令修仙者提升到炼气期的法术",
         "message": "你感到自己的丹田沉为气状,正在吸纳天地灵气……",
         "min_damage": 10000,
@@ -33,7 +33,7 @@
         "name": { "str": "筑基" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "ZHU_JI_XIAN"
+        "effect_str": "ZHU_JI_XIAN",
         "description": "令修仙者提升到炼气期的法术",
         "message": "你感到自己神识倍增，丹田凝聚为液状……",
         "min_damage": 10000,
@@ -47,7 +47,7 @@
         "name": { "str": "金丹" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "JIN_DAN_XIAN"
+        "effect_str": "JIN_DAN_XIAN",
         "description": "令修仙者提升到金丹期的法术",
         "message": "你感到自己的丹田凝聚为固态圆球……",
         "min_damage": 10000,
@@ -61,7 +61,7 @@
         "name": { "str": "元婴" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "YUAN_YING_XIAN"
+        "effect_str": "YUAN_YING_XIAN",
         "description": "令修仙者提升到元婴期的法术",
         "message": "你感到自己的丹田破体为婴，神识更上层楼……",
         "min_damage": 10000,
@@ -75,7 +75,7 @@
         "name": { "str": "化神" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "HUA_SHEN_XIAN"
+        "effect_str": "HUA_SHEN_XIAN",
         "description": "令修仙者提升到化神期的法术",
         "message": "你感到自己的元婴朝着元神过渡……",
         "min_damage": 10000,
@@ -89,7 +89,7 @@
         "name": { "str": "炼虚" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "LIAN_XU_XIAN"
+        "effect_str": "LIAN_XU_XIAN",
         "description": "令修仙者提升到炼虚期的法术",
         "message": "你感到自己的元婴化为元神，反虚出本体……",
         "min_damage": 10000,
@@ -103,7 +103,7 @@
         "name": { "str": "合体" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "HE_TI_XIAN"
+        "effect_str": "HE_TI_XIAN",
         "description": "令修仙者提升到合体期的法术",
         "message": "你与你的分身合二为一，初掌神通……",
         "min_damage": 10000,
@@ -117,7 +117,7 @@
         "name": { "str": "大乘" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "DA_CHENG_XIAN"
+        "effect_str": "DA_CHENG_XIAN",
         "description": "令修仙者提升到大乘期的法术",
         "message": "你感到自己已经初步具备飞升上届的能力……",
         "min_damage": 10000,
@@ -131,7 +131,7 @@
         "name": { "str": "渡劫 },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "DI_JIE_XIAN"
+        "effect_str": "DI_JIE_XIAN",
         "description": "令修仙者提升到渡劫期的法术",
         "message": "你感到自己的血肉之躯逐渐羽化登仙……",
         "min_damage": 10000,
