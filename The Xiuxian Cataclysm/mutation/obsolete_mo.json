@@ -73,7 +73,7 @@
     "max_stamina_modifier" : 1.2,
     "stamina_regen_modifier" : 1.2,
     "overmap_sight" : 10,
-    "threshreq": ["MO"],
+    "threshreq": ["MO_1"],
     "spells_learned": [ [ "multate_MO_3", 0 ] ],
     "prereqs" : ["LIAN_QI_MO"],
     "changes_to" : ["JIN_DAN_MO"]
@@ -100,7 +100,7 @@
     "max_stamina_modifier" : 1.3,
     "stamina_regen_modifier" : 1.3,
     "overmap_sight" : 15,
-    "threshreq": ["MO"],
+    "threshreq": ["MO_1"],
     "spells_learned": [ [ "multate_MO_4", 0 ] ],
     "changes_to" : ["YUAN_YING_MO"],
     "prereqs" : ["ZHU_JI_MO"]
@@ -127,7 +127,7 @@
     "max_stamina_modifier" : 1.4,
     "stamina_regen_modifier" : 1.4,
     "overmap_sight" : 20,
-    "threshreq": ["MO"],
+    "threshreq": ["MO_1"],
     "spells_learned": [ [ "multate_MO_5", 0 ] ],
     "changes_to" : ["HUA_SHEN_MO"],
     "prereqs" : ["JIN_DAN_MO"]
@@ -154,7 +154,7 @@
     "max_stamina_modifier" : 1.5,
     "stamina_regen_modifier" : 1.5,
     "overmap_sight" : 25,
-    "threshreq": ["MO"],
+    "threshreq": ["MO_1"],
     "spells_learned": [ [ "multate_MO_6", 0 ] ],
     "changes_to" : ["LIAN_XU_MO"],
     "prereqs" : ["YUAN_YING_MO"]
@@ -181,7 +181,7 @@
     "max_stamina_modifier" : 1.6,
     "stamina_regen_modifier" : 1.6,
     "overmap_sight" : 30,
-    "threshreq": ["MO"],
+    "threshreq": ["MO_1"],
     "spells_learned": [ [ "multate_MO_7", 0 ] ],
     "changes_to" : ["HE_TI_MO"],
     "prereqs" : ["HUA_SHEN_MO"]
@@ -208,7 +208,7 @@
     "max_stamina_modifier" : 1.7,
     "stamina_regen_modifier" : 1.7,
     "overmap_sight" : 35,
-    "threshreq": ["MO"],
+    "threshreq": ["MO_1"],
     "spells_learned": [ [ "multate_MO_8", 0 ] ],
     "changes_to" : ["DA_CHENG_MO"],
     "prereqs" : ["LIAN_XU_MO"]
@@ -235,7 +235,7 @@
     "max_stamina_modifier" : 1.8,
     "stamina_regen_modifier" : 1.8,
     "overmap_sight" : 40,
-    "threshreq": ["MO"],
+    "threshreq": ["MO_1"],
     "spells_learned": [ [ "multate_MO_9", 0 ] ],
     "changes_to" : ["DU_JIE_MO"],
     "prereqs" : ["HE_TI_MO"]
@@ -262,7 +262,7 @@
     "max_stamina_modifier" : 1.9,
     "stamina_regen_modifier" : 1.9,
     "overmap_sight" : 45,
-    "threshreq": ["MO"],
+    "threshreq": ["MO_1"],
     "prereqs" : ["DA_CHENG_MO"]
  }
 ]
