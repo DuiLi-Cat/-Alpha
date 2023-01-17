@@ -1,7 +1,8 @@
 [
     {
       "id": "realm_lifting_pill_xian_0",
-      "type": "TOOL",
+      "type": "COMESTIBLE",
+      "comestible_type": "MED",
       "category": "other",
       "symbol": "S",
       "color": "white",
@@ -24,7 +25,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_1",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
@@ -47,7 +49,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_2",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
@@ -70,7 +73,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_3",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
@@ -93,7 +97,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_4",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
@@ -116,7 +121,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_5",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
@@ -139,7 +145,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_6",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
@@ -162,7 +169,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_7",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
@@ -185,7 +193,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_8",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
@@ -208,7 +217,8 @@
     },
     {
         "id": "realm_lifting_pill_xian_9",
-        "type": "TOOL",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
