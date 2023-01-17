@@ -5,7 +5,7 @@
         "name": { "str": "成仙" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "XIAN_1", 
+        "effect_str": "XIAN_2", 
         "description": "令凡人肉身成仙的法术",
         "message": "你选择了修仙……",
         "min_damage": 10000,

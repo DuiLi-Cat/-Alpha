@@ -6,7 +6,7 @@
     "points":1,
     "visibility":0,
     "ugliness":0,
-    "description":"你选择了仙修这一途径进行修真",
+    "description":"1",
     "category": ["xian"],
     "cancels" : ["MO_1"],
     "starting_trait" : true

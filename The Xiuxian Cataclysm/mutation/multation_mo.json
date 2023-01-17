@@ -5,7 +5,7 @@
         "name": { "str": "成魔" },
         "effect": "mutate",
         "shape": "blast",
-        "effect_str": "MO_1",
+        "effect_str": "MO_2",
         "description": "令凡人堕入魔道的法术",
         "message": "你选择了修魔……",
         "min_damage": 10000,
