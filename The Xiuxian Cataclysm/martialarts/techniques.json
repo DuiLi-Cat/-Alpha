@@ -1,0 +1,50 @@
+[
+ {
+    "type": "technique",
+    "id": "tec_device_pool_deep_pearl",
+    "name": "檀渊珠加持",
+     "messages": [ "你出手时体内檀渊珠开始发光旋转，对%s", "<npcname>  %s" ],
+    "melee_allowed": true,
+    "unarmed_allowed": true,
+    "unarmed_weapons_allowed": true,
+    "crit_ok": true,
+    "block_counter": true,
+    "dodge_counter": true,
+    "flat_bonuses": [
+   { "stat": "block", "scaling-stat": "dex", "scale": 0.2 },
+   { "stat": "block", "scaling-stat": "str", "scale": 0.2 },
+   { "stat": "block", "scaling-stat": "int", "scale": 0.2 },
+   { "stat": "block", "scaling-stat": "per", "scale": 0.2 }, 
+   { "stat": "dodge", "scaling-stat": "dex", "scale": 0.2 },
+   { "stat": "dodge", "scaling-stat": "str", "scale": 0.2 },
+   { "stat": "dodge", "scaling-stat": "int", "scale": 0.2 },
+   { "stat": "dodge", "scaling-stat": "per", "scale": 0.2 } 
+  ]
+ },
+ {
+    "type": "technique",
+    "id": "tec_device_magic_deep_bead",
+    "name": "魔渊珠加持",
+     "messages": [ "你出手时体内魔渊珠开始发光旋转，对%s", "<npcname>  %s" ],
+    "melee_allowed": true,
+    "unarmed_allowed": true,
+    "unarmed_weapons_allowed": true,
+    "crit_ok": true,
+    "block_counter": true,
+    "dodge_counter": true,
+    "mult_bonuses": [
+      { "stat": "damage", "type": "bash", "scale": 0.4 },
+      { "stat": "damage", "type": "cut", "scale": 0.4 },
+      { "stat": "damage", "type": "stab", "scale": 0.4 },
+      { "stat": "movecost", "scale": 0.5 }
+    ],
+    "flat_bonuses": [
+     { "stat": "arpen", "type": "bash", "scale": 10 },
+     { "stat": "arpen", "type": "bash", "scaling-stat": "per", "scale": 1 },
+     { "stat": "arpen", "type": "cut", "scale": 10 },
+     { "stat": "arpen", "type": "cut", "scaling-stat": "per", "scale": 1 },
+     { "stat": "arpen", "type": "stab", "scale": 10 },
+     { "stat": "arpen", "type": "stab", "scaling-stat": "per", "scale": 1 }
+  ]
+ }
+]

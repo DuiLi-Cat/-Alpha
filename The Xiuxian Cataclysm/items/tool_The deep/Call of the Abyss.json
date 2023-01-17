@@ -1,0 +1,46 @@
+[
+  {
+    "id": "call_of_the_abyss_1",
+    "type": "TOOL",
+    "category": "other",
+    "symbol": "S",
+    "color": "white",
+    "name": {"str": "邪渊召唤物"},
+    "description": "使用这个可以召唤出携有檀渊珠的邪渊",
+    "price": "1000 USD",
+    "material": [
+      "lingqi"
+    ],
+    "weight": "1 g",
+    "volume": "1 ml",
+    "use_action": {
+      "type": "place_monster",
+      "difficulty":30,
+      "monster_id": "mon_the_surrogate_of_the_abyss_1",
+      "place_randomly": true,
+      "skills": [ "Refining_apparatus" ]
+    }
+  },
+  {
+    "id": "call_of_the_abyss_2",
+    "type": "TOOL",
+    "category": "other",
+    "symbol": "S",
+    "color": "white",
+    "name": {"str": "魔渊召唤物"},
+    "description": "使用这个可以召唤出携有魔渊珠的魔渊",
+    "price": "1000 USD",
+    "material": [
+      "lingqi"
+    ],
+    "weight": "1 g",
+    "volume": "1 ml",
+    "use_action": {
+      "type": "place_monster",
+      "difficulty":30,
+      "monster_id": "mon_the_surrogate_of_the_abyss_2",
+      "place_randomly": true,
+      "skills": [ "Refining_apparatus" ]
+    }
+  }
+]

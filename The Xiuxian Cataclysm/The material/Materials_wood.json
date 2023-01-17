@@ -1,0 +1,107 @@
+[
+  {
+    "type": "material",
+    "id": "wood_fire_1",
+    "name": "火属活枝",
+    "bash_resist": 15,
+    "cut_resist": 15,
+    "acid_resist": 50,
+    "elec_resist": 50,
+    "fire_resist": 50,
+    "bullet_resist": 100,
+    "chip_resist": 40,
+    "density": 1000,
+    "bash_dmg_verb": "缺口",
+    "cut_dmg_verb": "刮花",
+    "dmg_adj": [
+      "划伤",
+      "缺口",
+      "裂纹",
+      "破碎"
+    ]
+  },
+  {
+    "type": "material",
+    "id": "wood_water_1",
+    "name": "水属活枝",
+    "bash_resist": 20,
+    "cut_resist": 10,
+    "acid_resist": 50,
+    "elec_resist": 50,
+    "fire_resist": 50,
+    "bullet_resist": 100,
+    "chip_resist": 50,
+    "density": 1000,
+    "bash_dmg_verb": "缺口",
+    "cut_dmg_verb": "刮花",
+    "dmg_adj": [
+      "划伤",
+      "缺口",
+      "裂纹",
+      "破碎"
+    ]
+  },
+{
+    "type": "material",
+    "id": "wood_stell_1",
+    "name": "金属活枝",
+    "bash_resist": 20,
+    "cut_resist": 10,
+    "acid_resist": 50,
+    "elec_resist": 50,
+    "fire_resist": 50,
+    "bullet_resist": 100,
+    "chip_resist": 50,
+    "density": 1000,
+    "bash_dmg_verb": "缺口",
+    "cut_dmg_verb": "刮花",
+    "dmg_adj": [
+      "划伤",
+      "缺口",
+      "裂纹",
+      "破碎"
+    ]
+  },
+{
+    "type": "material",
+    "id": "wood_soil_1",
+    "name": "土属活枝",
+    "bash_resist": 20,
+    "cut_resist": 10,
+    "acid_resist": 50,
+    "elec_resist": 50,
+    "fire_resist": 50,
+    "bullet_resist": 100,
+    "chip_resist": 50,
+    "density": 1000,
+    "bash_dmg_verb": "缺口",
+    "cut_dmg_verb": "刮花",
+    "dmg_adj": [
+      "划伤",
+      "缺口",
+      "裂纹",
+      "破碎"
+    ]
+  },
+  {
+    "type": "material",
+    "id": "wood_wood_1",
+    "name": "木属活枝",
+    "bash_resist": 10,
+    "cut_resist": 20,
+    "acid_resist": 50,
+    "elec_resist": 50,
+    "fire_resist": 50,
+    "bullet_resist": 100,
+    "chip_resist": 40,
+    "density": 1000,
+    "bash_dmg_verb": "缺口",
+    "cut_dmg_verb": "刮花",
+    "dmg_adj": [
+      "划伤",
+      "缺口",
+      "裂纹",
+      "破碎"
+    ]
+  }
+]

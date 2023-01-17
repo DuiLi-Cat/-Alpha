@@ -1,0 +1,37 @@
+{
+    "id": "1",
+    "name": "测试护甲1",
+    "type": "ARMOR",
+    "description": "测试护甲1",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 114514,
+    "symbol": "1",
+    "material": ["lingqi"],
+    "color": "black",
+    "armor_portion_data": [
+        {
+            "encumbrance": 5,
+            "coverage": 95,
+            "covers": [
+                "torso"
+            ],
+            "specifically_covers": [
+                "torso_upper"
+            ]
+        },
+        {
+            "encumbrance": 2,
+            "coverage": 95,
+            "cover_vitals": 90,
+            "covers": [
+                "arm_l",
+                "arm_r"
+            ],
+            "specifically_covers": [
+                "arm_shoulder_l",
+                "arm_shoulder_r"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "type": "material",
+    "id": "stell_1",
+    "name": "灵钢",
+    "bash_resist": 15,
+    "cut_resist": 15,
+    "acid_resist": 50,
+    "elec_resist": 50,
+    "fire_resist": 50,
+    "bullet_resist": 100,
+    "chip_resist": 40,
+    "density": 1000,
+    "bash_dmg_verb": "缺口",
+    "cut_dmg_verb": "刮花",
+    "dmg_adj": [
+      "划伤",
+      "缺口",
+      "裂纹",
+      "破碎"
+    ]
+  },
+  {
+    "type": "material",
+    "id": "stell_2",
+    "name": "魔钢",
+    "bash_resist": 20,
+    "cut_resist": 10,
+    "acid_resist": 50,
+    "elec_resist": 50,
+    "fire_resist": 50,
+    "bullet_resist": 100,
+    "chip_resist": 50,
+    "density": 1000,
+    "bash_dmg_verb": "缺口",
+    "cut_dmg_verb": "刮花",
+    "dmg_adj": [
+      "划伤",
+      "缺口",
+      "裂纹",
+      "破碎"
+    ]
+  },
+  {
+    "type": "material",
+    "id": "stell_3",
+    "name": "玄钢",
+    "bash_resist": 10,
+    "cut_resist": 20,
+    "acid_resist": 50,
+    "elec_resist": 50,
+    "fire_resist": 50,
+    "bullet_resist": 100,
+    "chip_resist": 40,
+    "density": 1000,
+    "bash_dmg_verb": "缺口",
+    "cut_dmg_verb": "刮花",
+    "dmg_adj": [
+      "划伤",
+      "缺口",
+      "裂纹",
+      "破碎"
+    ]
+  }
+]

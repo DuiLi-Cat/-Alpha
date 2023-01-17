@@ -1,0 +1,92 @@
+[
+  {
+    "type": "mutation_category",
+    "id": "xian",
+    "name": "仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian1",
+    "name": "一阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian2",
+    "name": "二阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian3",
+    "name": "三阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian4",
+    "name": "四阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian5",
+    "name": "五阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian6",
+    "name": "六阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian7",
+    "name": "七阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian8",
+    "name": "八阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  },
+  {
+    "type": "mutation_category",
+    "id": "xian9",
+    "name": "九阶仙",
+    "threshold_mut": "THRESH_PLANT",
+    "mutagen_message": "你感觉体内有一股气在聚集",
+    "iv_message": "我也不知道写啥了",
+    "memorial_message": "没有骚话了"
+  }
+]

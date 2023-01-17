@@ -1,0 +1,34 @@
+[
+  {
+    "type": "skill",
+    "id": "An_alchemy",
+    "name": "炼丹",
+    "description": "将其药用物质成份提纯，保留，并使其尽可能多地与新注入的灵气相结合，尽可能多地形成高价值的“药灵气”（未实装）",
+    "companion_survival_rank_factor": 1,
+    "display_category": "display_crafting"
+  },
+  {
+    "type": "skill",
+    "id": "law",
+    "name": "阵法",
+    "description": "把本来只能用于养生、医疗、防御的能量，通过一定的“线路”转化成其它类型的能量，从而实现不同的效用（未实装）",
+    "companion_survival_rank_factor": 1,
+    "display_category": "display_crafting"
+  },
+ {
+    "type": "skill",
+    "id": "Refining_apparatus",
+    "name": "炼器",
+    "description": "炼器师是修真界非常重要的一种职业，相当受尊重（未实装）",
+    "companion_survival_rank_factor": 1,
+    "display_category": "display_crafting"
+  },
+  {
+    "type": "skill",
+    "id": "wine",
+    "name": "酿酒",
+    "description": "修真界的酿酒不同于世俗界，是“酿造灵酒”的简称（未实装）",
+    "companion_survival_rank_factor": 1,
+    "display_category": "display_crafting"
+  }
+]

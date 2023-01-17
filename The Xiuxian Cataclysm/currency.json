@@ -1,0 +1,58 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "LingShi_1",
+    "name": { "str": "下品灵石" },
+    "description": "下品灵石 正六面体 内含灵气100单位 这是修真世界里面最基础的货币 一般用于交易小型物品",
+    "price": 10000,
+    "price_postapoc": 5000,
+    "weight": "20g",
+    "to_hit": -3,
+    "color": "brown",
+    "symbol": "$",
+    "material": [ "lingqi" ],
+    "volume": "20ml"
+  },
+  {
+    "type": "GENERIC",
+    "id": "LingShi_2",
+    "name": { "str": "中品灵石" },
+    "description": "中品灵石 正八面体 由100下品灵石炼化而成 修真世界里面通常用于交易",
+    "price": 100000,
+    "price_postapoc": 50000,
+    "weight": "40g",
+    "to_hit": -3,
+    "color": "brown",
+    "symbol": "$",
+    "material": [ "lingqi" ],
+    "volume": "40ml"
+  },
+  {
+    "type": "GENERIC",
+    "id": "LingShi_3",
+    "name": { "str": "上品灵石" },
+    "description": "上品灵石 正十二面体 由100中品灵石炼化而成 修真世界里面通常用于大型交易",
+    "price": 1000000,
+    "price_postapoc": 500000,
+    "weight": "60g",
+    "to_hit": -3,
+    "color": "brown",
+    "symbol": "$",
+    "material": [ "lingqi" ],
+    "volume": "60ml"
+  },
+  {
+    "type": "GENERIC",
+    "id": "LingShi_4",
+    "name": { "str": "极品灵石" },
+    "description": "极品灵石 正二十面体 由100上品灵石炼化而成 这是修真世界里面最大的货币 一般用于交易神器 金丹",
+    "price": 10000000,
+    "price_postapoc": 5000000,
+    "weight": "80g",
+    "to_hit": -3,
+    "color": "brown",
+    "symbol": "$",
+    "material": [ "lingqi" ],
+    "volume": "80ml"
+  }
+]

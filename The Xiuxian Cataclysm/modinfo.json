@@ -1,0 +1,16 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "stool",
+    "name": "<color_cyan>修仙</color>",
+    "authors": [
+      "DLCat"
+    ],
+    "description": "当大灾变也能够修仙.....（属于早期测试版本，没有太多东西，有很多bug）",
+    "version": "0.0.1",
+    "category": "content",
+    "dependencies": [
+      "dda"
+    ]
+  }
+]

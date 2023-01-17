@@ -1,0 +1,31 @@
+[
+  {
+    "type": "item_group",
+    "id": "lingqi_group",
+    "//": "灵气",
+    "subtype": "distribution",
+    "entries":[
+       { "item": "LING_QI", "count": [5, 10 ], "prob": 100 },
+       { "item": "manual_magic_deep_bead", "prob": 100 },
+       { "item": "manual_pool_deep_pearl", "prob": 100 }
+   ]
+  },
+  {
+    "type": "item_group",
+    "id": "manual_magic_deep_bead_group",
+    "//": "魔渊珠",
+    "subtype": "distribution",
+    "entries":[
+       { "item": "manual_magic_deep_bead", "prob": 100 }
+   ]
+  },
+  {
+    "type": "item_group",
+    "id": "manual_pool_deep_pearl_group",
+    "//": "檀渊珠",
+    "subtype": "distribution",
+    "entries":[
+       { "item": "manual_pool_deep_pearl", "prob": 100 }
+   ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+    "id": "LING_QI",
+    "name": "灵气",
+    "type": "GENERIC",
+    "description": "用于提升修为的灵气",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 0,
+    "symbol": "L",
+    "material": ["lingqi"],
+    "color": "white"
+}
