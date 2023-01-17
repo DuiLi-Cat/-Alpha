@@ -10,7 +10,7 @@
         "message": "你感到自己的血肉之躯逐渐羽化登仙……",
         "min_damage": 10000,
         "max_damage": 10000,
-        "flags": [ "SILENT", "MUTATE_TRAIT", "RANDOM_TARGET" ],
+        "flags": [ "SILENT", "MUTATE_TRAIT" ],
         "valid_targets": [ "self" ]
     },
     {
