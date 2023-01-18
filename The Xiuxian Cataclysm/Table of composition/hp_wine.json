@@ -1,0 +1,72 @@
+[
+    {
+        "result": "pam_wine_hp_1",
+        "type": "recipe",
+        "category": "CC_FOOD",
+        "subcategory": "CSC_FOOD_BREW",
+        "skill_used": "wine",
+        "difficulty": 1,
+        "time": "30 m",
+        "reversible": false,
+        "autolearn": true,
+        "using": [],
+        "qualities": [],
+        "components": [[["LING_QI",50]]]
+    },
+    {
+        "result": "pam_wine_hp_2",
+        "type": "recipe",
+        "category": "CC_FOOD",
+        "subcategory": "CSC_FOOD_BREW",
+        "skill_used": "wine",
+        "difficulty": 3,
+        "time": "30 m",
+        "reversible": false,
+        "autolearn": true,
+        "using": [],
+        "qualities": [],
+        "components": [[["LING_QI",50]]]
+    },
+    {
+        "result": "pam_wine_hp_3",
+        "type": "recipe",
+        "category": "CC_FOOD",
+        "subcategory": "CSC_FOOD_BREW",
+        "skill_used": "wine",
+        "difficulty": 5,
+        "time": "30 m",
+        "reversible": false,
+        "autolearn": true,
+        "using": [],
+        "qualities": [],
+        "components": [[["LING_QI",50]]]
+    },
+    {
+        "result": "pam_wine_hp_4",
+        "type": "recipe",
+        "category": "CC_FOOD",
+        "subcategory": "CSC_FOOD_BREW",
+        "skill_used": "wine",
+        "difficulty": 7,
+        "time": "30 m",
+        "reversible": false,
+        "autolearn": true,
+        "using": [],
+        "qualities": [],
+        "components": [[["LING_QI",50]]]
+    },
+    {
+        "result": "pam_wine_hp_5",
+        "type": "recipe",
+        "category": "CC_FOOD",
+        "subcategory": "CSC_FOOD_BREW",
+        "skill_used": "wine",
+        "difficulty": 9,
+        "time": "30 m",
+        "reversible": false,
+        "autolearn": true,
+        "using": [],
+        "qualities": [],
+        "components": [[["LING_QI",50]]]
+    }
+]
