@@ -5,7 +5,7 @@
     "category": "other",
     "symbol": "S",
     "color": "white",
-    "name": {"str": "邪渊召唤物"},
+    "name": {"str": "邪渊召唤物","str_pl":"邪渊召唤物"},
     "description": "使用这个可以召唤出携有檀渊珠的邪渊",
     "price": "1000 USD",
     "material": [
@@ -27,7 +27,7 @@
     "category": "other",
     "symbol": "S",
     "color": "white",
-    "name": {"str": "魔渊召唤物"},
+    "name": {"str": "魔渊召唤物","str_pl":"魔渊召唤物"},
     "description": "使用这个可以召唤出携有魔渊珠的魔渊",
     "price": "1000 USD",
     "material": [

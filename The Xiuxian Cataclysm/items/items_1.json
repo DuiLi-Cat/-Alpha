@@ -1,6 +1,6 @@
 {
     "id": "LING_QI",
-    "name": "灵气",
+    "name": { "str": "灵气","str_pl":"灵气" },
     "type": "GENERIC",
     "description": "用于提升修为的灵气",
     "weight": "1 g",
