@@ -5,9 +5,10 @@
     "//": "灵气",
     "subtype": "distribution",
     "entries":[
-       { "item": "LING_QI", "count": [5, 10 ], "prob": 100 },
-       { "item": "manual_magic_deep_bead", "prob": 100 },
-       { "item": "manual_pool_deep_pearl", "prob": 100 }
+       { "item": "LING_QI", "count": [15, 30 ], "prob": 100 },
+       { "item": "LingShi_1", "count": [5, 10 ],"prob": 85 },
+       { "item": "LingShi_2", "count": [1, 5 ],"prob": 50 },
+       { "item": "LingShi_3", "prob": 20 }
    ]
   },
   {
