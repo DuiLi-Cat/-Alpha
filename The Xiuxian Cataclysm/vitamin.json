@@ -51,5 +51,29 @@
                 [ "vitamin_lingqi_steel", 100, 100 ]
             ]
         }
+    },
+    {
+        "id": "pill_lingqi-_steel",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "逆五行丹·金"},
+        "description": "减少少量金属五行灵气",
+        "price": "1000 USD",
+        "material": [
+            "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "consume_drug",
+            "activation_message": "你服用了 %s。",
+            "vitamins": [
+                [ "iron", 24, 48 ],
+                [ "vitamin_lingqi_steel", -100, -100 ]
+            ]
+        }
     }
 ]
