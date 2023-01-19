@@ -23,6 +23,9 @@
         "base_mods": {
             "str_mod": [ 2 ]
         },
+        "scaling_mods": {
+            "str_mod": [ 2 ]
+        },
         "rating": "good"
     },
     {
