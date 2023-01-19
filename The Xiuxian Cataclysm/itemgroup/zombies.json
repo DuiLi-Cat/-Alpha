@@ -7,17 +7,17 @@
     "entries":[
         {
             "distribution":[
-                { "group": "An_alchemy_book_group_1", "prob": 25 },
-                { "group": "law_book_group_1", "prob": 25 },
-                { "group": "Refining_apparatus_book_group_1", "prob": 25 },
-                { "group": "wine_book_group_1", "prob": 25 }
+                { "group": "An_alchemy_book_group_1", "damage": 0, "prob": 25 },
+                { "group": "law_book_group_1", "damage": 0, "prob": 25 },
+                { "group": "Refining_apparatus_book_group_1", "damage": 0, "prob": 25 },
+                { "group": "wine_book_group_1", "damage": 0, "prob": 25 }
             ],
             "prob": 18
         },
-        { "group": "polygonum_officinalis_group","prob": 30 },
-        { "item": "call_of_the_abyss_1", "prob": 1 },
-        { "item": "call_of_the_abyss_2", "prob": 1 },
-        { "group": "lingqi_group","prob": 50 }
+        { "group": "polygonum_officinalis_group", "damage": 0, "prob": 30 },
+        { "item": "call_of_the_abyss_1", "damage": 0, "prob": 1 },
+        { "item": "call_of_the_abyss_2", "damage": 0, "prob": 1 },
+        { "group": "lingqi_group", "damage": 0, "prob": 50 }
     ]
   }
 ]
