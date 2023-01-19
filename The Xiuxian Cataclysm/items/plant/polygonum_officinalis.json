@@ -1,7 +1,7 @@
 [
     {
         "id": "polygonum_officinalis_1",
-        "name": "参天蓼根",
+        "name": { "str": "参天蓼根","str_pl":"参天蓼根" },
         "type": "GENERIC",
         "description": "这是一个参天蓼根",
         "weight": "30 g",
@@ -14,7 +14,7 @@
     },
     {
         "id": "polygonum_officinalis_2",
-        "name": "参天蓼茎",
+        "name": { "str": "参天蓼茎","str_pl":"参天蓼茎" },
         "type": "GENERIC",
         "description": "这是一块参天蓼茎",
         "weight": "50 g",
@@ -27,7 +27,7 @@
     },
     {
         "id": "polygonum_officinalis_3",
-        "name": "参天蓼叶",
+        "name": { "str": "参天蓼叶","str_pl":"参天蓼叶" },
         "type": "GENERIC",
         "description": "这是一片参天蓼叶",
         "weight": "1 g",
@@ -40,7 +40,7 @@
     },
     {
         "id": "polygonum_officinalis_4",
-        "name": "参天蓼花",
+        "name": { "str": "参天蓼花","str_pl":"参天蓼花" },
         "type": "GENERIC",
         "description": "这是一朵参天蓼花",
         "weight": "5 g",
@@ -53,7 +53,7 @@
     },
     {
         "id": "polygonum_officinalis_5",
-        "name": "参天蓼种子（未能实装）",
+        "name": { "str": "参天蓼种子","str_pl":"参天蓼种子" },
         "type": "GENERIC",
         "description": "这是参天蓼种子（没用）",
         "weight": "114 g",
@@ -66,7 +66,7 @@
     },
     {
         "id": "polygonum_officinalis_6",
-        "name": "参天蓼灵核",
+        "name": { "str": "参天蓼灵核","str_pl":"参天蓼灵核" },
         "type": "GENERIC",
         "description": "这是参天蓼灵核，参天蓼最精华也是最少的部分，据说1kg参天蓼只能提炼出10g灵核",
         "weight": "10 g",
@@ -79,7 +79,7 @@
     },
     {
         "id": "polygonum_officinalis_7",
-        "name": "参天蓼液",
+        "name": { "str": "参天蓼液","str_pl":"参天蓼液" },
         "type": "GENERIC",
         "description": "这是参天蓼打碎研磨获得的参天蓼液,因为灵气化所以变成固体的样子",
         "weight": "114 g",
