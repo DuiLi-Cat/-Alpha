@@ -1,0 +1,80 @@
+[
+    {
+        "id": "vitamin_lingqi_wood",
+        "type": "vitamin",
+        "vit_type": "counter",
+        "name": { "str": "五行灵气·木" },
+        "excess": "effect_lingqi_wood",
+        "min": 0,
+        "max": 2500,
+        "rate": "0 h",
+        "disease_excess": [ [ 100, 500 ], [ 501, 2199 ], [ 2200, 2500 ] ]
+    },
+    {
+        "type": "effect_type",
+        "id": "effect_lingqi_wood",
+        "name": [ "木·破土而出", "木·生生不息", "木·森罗万象" ],
+        "desc": [
+          "木属性的五行灵气在你体内微微运转。",
+          "木属性的五行灵气在你体内急速运转。",
+          "木属性的五行灵气在你周身猛烈散发。"
+        ],
+        "max_intensity": 3,
+        "base_mods": {
+            "str_mod": [ 2 ]
+        },
+        "scaling_mods": {
+            "str_mod": [ 2 ]
+        },
+        "enchantments": [ "enchantment_lingqi_wood" ],
+        "rating": "good"
+    },
+    {
+        "id": "pill_lingqi_wood",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "五行丹·木"},
+        "description": "获得少量木属五行灵气",
+        "price": "1000 USD",
+        "material": [
+            "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "consume_drug",
+            "activation_message": "你服用了 %s。",
+            "vitamins": [
+                [ "iron", 24, 48 ],
+                [ "vitamin_lingqi_wood", 100, 100 ]
+            ]
+        }
+    },
+    {
+        "id": "pill_lingqi-_wood",
+        "type": "COMESTIBLE",
+        "comestible_type": "MED",
+        "category": "other",
+        "symbol": "S",
+        "color": "white",
+        "name": {"str": "逆五行丹·木"},
+        "description": "减少少量木属五行灵气",
+        "price": "1000 USD",
+        "material": [
+            "lingqi"
+        ],
+        "weight": "1 g",
+        "volume": "1 ml",
+        "use_action": {
+            "type": "consume_drug",
+            "activation_message": "你服用了 %s。",
+            "vitamins": [
+                [ "iron", 24, 48 ],
+                [ "vitamin_lingqi_wood", -100, -100 ]
+            ]
+        }
+    }
+]
