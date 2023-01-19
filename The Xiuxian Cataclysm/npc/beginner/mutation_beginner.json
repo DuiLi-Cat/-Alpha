@@ -1,0 +1,33 @@
+[
+    {
+        "type": "mutation",
+        "id": "mutation_beginner",
+        "name": { "str": "吉祥物初哥" },
+        "description": "初哥的主角光环",
+        "purifiable": false,
+        "flags": [ "HEAT_IMMUNE" ],
+        "healing_awake": 3000.0,
+        "healing_resting": 3000.0,
+        "armor": [ { "part_types": [ "ALL" ], "cut": 800, "bash": 800 } ],
+        "enchantments": [  "enchantment_beginner" ]
+    },
+    {
+        "type": "enchantment",
+        "id": "enchantment_beginner",
+        "condition": "ALWAYS",
+        "hit_you_effect": [
+            {
+                "id": "beginner_pure_damage",
+                "message": "你的攻击扭曲了时空！",
+                "npc_message": "%1$的攻击扭曲了时空！"
+            }
+        ],
+        "hit_me_effect": [
+            {
+                "id": "beginner_healing",
+                "message": "你受到攻击的部位似乎变成了虚空。",
+                "npc_message": "%1$受到攻击的部位似乎变成了虚空。"
+            }
+        ]
+    }
+]
