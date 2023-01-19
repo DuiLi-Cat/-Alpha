@@ -1,0 +1,56 @@
+[
+  {
+    "id": "TALK_BEGINNER",
+    "type": "talk_topic",
+    "dynamic_line":"你好啊傻逼群友，认识你初哥不？",
+    "responses": [
+      { "text": "认识认识，久仰久仰。", "topic": "TALK_BEGINNER_RECOGNIZE" },
+      { "text": "8认识欸", "topic": "TALK_BEGINNER_NOT_RECOGNIZE" },
+      { "text": "麻蛋你很欠揍。", "topic": "TALK_BEGINNER_FIGHT" },
+      { "text": "我还很忙，先溜了……", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_BEGINNER_RECOGNIZE",
+    "type": "talk_topic",
+    "dynamic_line":"针不戳。",
+    "responses": [
+      {
+        "switch": true,
+        "default": true,
+        "text": "初哥大佬nb，以后我跟你混了。",
+        "trial": { "type": "PERSUADE", "difficulty": 0 },
+        "success": { "topic": "TALK_AGREE_FOLLOW", "effect": "follow", "opinion": { "trust": 2, "anger": -1 } },
+        "failure": { "topic": "TALK_BEGINNER_DISAGREE_FOLLOW", "effect": "deny_follow", "opinion": { "trust": 0, "fear": 0, "value": 1, "anger": 0 } }
+      },
+      { "text": "麻蛋你很欠揍。", "topic": "TALK_BEGINNER_FIGHT" },
+      { "text": "我还很忙，先溜了……", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_BEGINNER_NOT_RECOGNIZE",
+    "type": "talk_topic",
+    "dynamic_line":"现在你认识了。",
+    "responses": [
+      {
+        "switch": true,
+        "default": true,
+        "text": "初哥大佬nb，以后我跟你混了。",
+        "trial": { "type": "PERSUADE", "difficulty": 0 },
+        "success": { "topic": "TALK_AGREE_FOLLOW", "effect": "follow", "opinion": { "trust": 2, "anger": -1 } },
+        "failure": { "topic": "TALK_BEGINNER_DISAGREE_FOLLOW", "effect": "deny_follow", "opinion": { "trust": 0, "fear": 0, "value": 1, "anger": 0 } }
+      },
+      { "text": "麻蛋你很欠揍。", "topic": "TALK_BEGINNER_FIGHT" },
+      { "text": "我还很忙，先溜了……", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_BEGINNER_FIGHT",
+    "type": "talk_topic",
+    "dynamic_line":"你很菜欸，真要打我？",
+    "responses": [
+      { "text": "就要揍你", "effect": "insult_combat", "topic": "TALK_DONE" },
+      { "text": "开玩笑的，我先溜了……", "topic": "TALK_DONE" }
+    ]
+  }
+]
