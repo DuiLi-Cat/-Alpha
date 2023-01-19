@@ -1,24 +1,14 @@
 [
-    {
-        "id": "recover_mana",
-        "type": "SPELL",
-        "name": "Life Conversion",
-        "description": "You channel your life force itself into your spiritual energy.  You spend hp to regain mana.",
-        "valid_targets": [ "self" ],
-        "min_damage": 75,
-        "damage_increment": 15.0,
-        "max_damage": 600,
-        "max_level": 35,
-        "effect": "recover_energy",
-        "effect_str": "MANA",
-        "shape": "blast",
-        "spell_class": "ANIMIST",
-        "energy_source": "HP",
-        "base_casting_time": 500,
-        "base_energy_cost": 5,
-        "energy_increment": 1.0,
-        "final_energy_cost": 40,
-        "flags": [ "SOMATIC", "VERBAL", "SILENT", "NO_LEGS" ],
-        "difficulty": 3
-      }
+  {
+    "id": "beginner_healing",
+    "type": "SPELL",
+    "name": "初哥治疗术",
+    "description": "让初哥急速自愈的治疗术.",
+    "valid_targets": [ "self" ],
+    "flags": [ "CONCENTRATE", "SOMATIC", "SILENT", "NO_PROJECTILE" ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": -200,
+    "max_damage": -200
+  }
 ]
