@@ -44,6 +44,7 @@
       [ "SKIN_LIGHT", 100 ],
       [ "THICKSKIN", 100 ],
       [ "NIGHTVISION", 100 ],
+      [ "mutation_beginner", 100 ],
       [ "TOUGH", 100 ],
       [ "PRETTY", 100 ]
     ]
