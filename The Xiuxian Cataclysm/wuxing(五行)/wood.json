@@ -15,9 +15,9 @@
         "id": "effect_lingqi_wood",
         "name": [ "木·破土而出", "木·生生不息", "木·森罗万象" ],
         "desc": [
-          "木属性的五行灵气在你体内微微运转。",
-          "木属性的五行灵气在你体内急速运转。",
-          "木属性的五行灵气在你周身猛烈散发。"
+            "木属性的五行灵气在你体内微微运转。",
+            "木属性的五行灵气在你体内急速运转。",
+            "木属性的五行灵气在你周身猛烈散发。"
         ],
         "max_intensity": 3,
         "base_mods": {
@@ -26,7 +26,6 @@
         "scaling_mods": {
             "str_mod": [ 2 ]
         },
-        "enchantments": [ "enchantment_lingqi_wood" ],
         "rating": "good"
     },
     {
