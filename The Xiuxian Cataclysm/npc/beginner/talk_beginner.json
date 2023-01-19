@@ -38,7 +38,7 @@
         "text": "初哥大佬nb，以后我跟你混了。",
         "trial": { "type": "PERSUADE", "difficulty": 0 },
         "success": { "topic": "TALK_AGREE_FOLLOW", "effect": "follow", "opinion": { "trust": 2, "anger": -1 } },
-        "failure": { "topic": "TALK_BEGINNER_DISAGREE_FOLLOW", "effect": "deny_follow", "opinion": { "trust": 0, "fear": 0, "value": 1, "anger": 0 } }
+        "failure": { "topic": "TALK_BEGINNER_DISAGREE_FOLLOW", "effect": "deny_follow", "opinion": { "trust": 2, "fear": -2, "value": 2, "anger": -2 } }
       },
       { "text": "麻蛋你很欠揍。", "topic": "TALK_BEGINNER_FIGHT" },
       { "text": "我还很忙，先溜了……", "topic": "TALK_DONE" }
