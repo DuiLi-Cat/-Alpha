@@ -1,0 +1,25 @@
+ {
+    "id": "generator_beginner",
+    "type": "TOOL",
+    "category": "other",
+    "symbol": "S",
+    "color": "white",
+    "name": {"str": "初哥生成器！"},
+    "description": "生成一个初学者。",
+    "price": "1000 USD",
+    "material": [ "lingqi" ],
+    "weight": "1 g",
+    "volume": "1 ml",
+    "use_action": {
+      "type": "place_npc",
+      "npc_class_id": "npc_beginner",
+      "summon_msg": "初学者降临！",
+      "place_randomly": true
+    },
+    "drop_action": {
+      "type": "place_npc",
+      "npc_class_id": "npc_beginner",
+      "summon_msg": "初学者降临！",
+      "place_randomly": true
+    }
+  }
