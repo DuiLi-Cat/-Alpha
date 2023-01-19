@@ -25,7 +25,7 @@
     "symbol": "S",
     "color": "white",
     "name": {"str": "修为提升丹（魔）"},
-    "description": "提升修为用",
+    "description": "提升修为用(吃掉之后不要再吃修为提升丹（仙），会卡修为)",
     "price": "1000 USD",
     "material": [
       "lingqi"
@@ -49,7 +49,7 @@
     "symbol": "S",
     "color": "white",
     "name": {"str": "修为提升丹（仙）"},
-    "description": "提升修为用",
+    "description": "提升修为用（吃掉之后不要再吃修为提升丹（魔），会卡修为）",
     "price": "1000 USD",
     "material": [
       "lingqi"
