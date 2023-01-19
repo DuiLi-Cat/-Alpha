@@ -4,6 +4,7 @@
         "id": "mutation_beginner",
         "name": { "str": "吉祥物初哥" },
         "description": "初哥的主角光环",
+        "points":10,
         "purifiable": false,
         "flags": [ "HEAT_IMMUNE" ],
         "healing_awake": 3000.0,
