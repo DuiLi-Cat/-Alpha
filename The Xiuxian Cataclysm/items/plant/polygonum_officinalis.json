@@ -1,0 +1,93 @@
+[
+    {
+        "id": "polygonum_officinalis_1",
+        "name": "参天蓼根",
+        "type": "GENERIC",
+        "description": "这是一个参天蓼根",
+        "weight": "30 g",
+        "volume": "20 ml",
+        "price": 114514,
+        "symbol": "L",
+        "material": ["polygonum_officinalisi","lingqi","wood_wood_1"],
+        "color": "green",
+        "flags": []
+    },
+    {
+        "id": "polygonum_officinalis_2",
+        "name": "参天蓼茎",
+        "type": "GENERIC",
+        "description": "这是一块参天蓼茎",
+        "weight": "50 g",
+        "volume": "20 ml",
+        "price": 114514,
+        "symbol": "L",
+        "material": ["polygonum_officinalisi","lingqi","wood_wood_1"],
+        "color": "green",
+        "flags": []
+    },
+    {
+        "id": "polygonum_officinalis_3",
+        "name": "参天蓼叶",
+        "type": "GENERIC",
+        "description": "这是一片参天蓼叶",
+        "weight": "1 g",
+        "volume": "10 ml",
+        "price": 114514,
+        "symbol": "L",
+        "material": ["polygonum_officinalisi","lingqi","wood_wood_1"],
+        "color": "green",
+        "flags": []
+    },
+    {
+        "id": "polygonum_officinalis_4",
+        "name": "参天蓼花",
+        "type": "GENERIC",
+        "description": "这是一朵参天蓼花",
+        "weight": "5 g",
+        "volume": "10 ml",
+        "price": 114514,
+        "symbol": "L",
+        "material": ["polygonum_officinalisi","lingqi","wood_wood_1"],
+        "color": "green",
+        "flags": []
+    },
+    {
+        "id": "polygonum_officinalis_5",
+        "name": "参天蓼种子（未能实装）",
+        "type": "GENERIC",
+        "description": "这是参天蓼种子（没用）",
+        "weight": "114 g",
+        "volume": "514 ml",
+        "price": 114514,
+        "symbol": "L",
+        "material": ["polygonum_officinalisi","lingqi","wood_wood_1"],
+        "color": "green",
+        "flags": []
+    },
+    {
+        "id": "polygonum_officinalis_6",
+        "name": "参天蓼灵核",
+        "type": "GENERIC",
+        "description": "这是参天蓼灵核，参天蓼最精华也是最少的部分，据说1kg参天蓼只能提炼出10g灵核",
+        "weight": "10 g",
+        "volume": "10 ml",
+        "price": 114514,
+        "symbol": "L",
+        "material": ["polygonum_officinalisi","lingqi","wood_wood_1"],
+        "color": "green",
+        "flags": []
+    },
+    {
+        "id": "polygonum_officinalis_7",
+        "name": "参天蓼液",
+        "type": "GENERIC",
+        "description": "这是参天蓼打碎研磨获得的参天蓼液,因为灵气化所以变成固体的样子",
+        "weight": "114 g",
+        "volume": "514 ml",
+        "price": 114514,
+        "symbol": "L",
+        "material": ["polygonum_officinalisi","lingqi","wood_wood_1"],
+        "color": "green",
+        "flags": []
+    }
+]
