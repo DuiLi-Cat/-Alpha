@@ -49,8 +49,16 @@
     "type": "talk_topic",
     "dynamic_line":"你很菜欸，真要打我？",
     "responses": [
-      { "text": "就要揍你", "effect": "insult_combat", "topic": "TALK_DONE" },
+      { "text": "就要揍你！S", "effect": "insult_combat", "topic": "TALK_DONE" },
       { "text": "开玩笑的，我先溜了……", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "id": "TALK_BEGINNER_DISAGREE_FOLLOW",
+    "type": "talk_topic",
+    "dynamic_line":"很想带你飞，但我忙的一批。",
+    "responses": [
+      { "text": "好吧……", "topic": "TALK_DONE" }
     ]
   }
 ]
