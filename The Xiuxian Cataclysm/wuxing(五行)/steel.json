@@ -15,9 +15,9 @@
         "id": "effect_lingqi_steel",
         "name": [ "金·锋芒初露", "金·势如破竹", "金·无坚不摧" ],
         "desc": [
-          "金属性的五行灵气在你体内微微运转。",
-          "金属性的五行灵气在你体内急速运转。",
-          "金属性的五行灵气在你周身猛烈散发。"
+            "金属性的五行灵气在你体内微微运转。",
+            "金属性的五行灵气在你体内急速运转。",
+            "金属性的五行灵气在你周身猛烈散发。"
         ],
         "max_intensity": 3,
         "base_mods": {
@@ -28,6 +28,19 @@
         },
         "enchantments": [ "enchantment_lingqi_steel" ],
         "rating": "good"
+    },
+    {
+        "type": "effect_type",
+        "id": "effect_lingqi_steel_restraint_wood",
+        "name": [ "内息紊乱·金克木" ],
+        "desc": [
+            "你的五行内力中金克木，内息紊乱，损伤经脉。"
+        ],
+        "base_mods": {
+            "str_mod": [ -8 ]
+        },
+        "enchantments": [ "enchantment_lingqi_steel" ],
+        "rating": "bad"
     },
     {
         "id": "pill_lingqi_steel",
