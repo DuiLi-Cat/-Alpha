@@ -1,0 +1,28 @@
+[
+    {
+      "id": "vitamin_lingqi_steel",
+      "type": "vitamin",
+      "vit_type": "counter",
+      "name": { "str": "五行灵气·金" },
+      "excess": "effect_lingqi_steel",
+      "min": 0,
+      "max": 2500,
+      "rate": "0 h",
+      "disease_excess": [ [ 100, 500 ], [ 501, 2199 ], [ 2200, 2500 ] ]
+    },
+    {
+        "type": "effect_type",
+        "id": "effect_lingqi_steel",
+        "name": [ "金·锋芒初露", "金·势如破竹", "*金·无坚不摧" ],
+        "desc": [
+          "金属性的五行灵气在你体内微微运转。",
+          "金属性的五行灵气在你体内急速运转。",
+          "金属性的五行灵气在你周身猛烈散发。"
+        ],
+        "max_intensity": 3,
+        "base_mods": {
+            "str_mod": [ 2 ]
+        },
+        "rating": "good"
+      }
+]
