@@ -44,22 +44,8 @@
       [ "SKIN_LIGHT", 100 ],
       [ "THICKSKIN", 100 ],
       [ "NIGHTVISION", 100 ],
-      [ "GOODHEARING", 100 ],
-      [ "LIGHTSTEP", 100 ],
-      [ "WEAKSCENT", 100 ],
-      [ "REGEN", 100 ],
-      [ "GOODCARDIO", 100 ],
-      [ "FLEET", 100 ],
-      [ "QUICK", 100 ],
-      [ "DEFT", 100 ],
-      [ "PAINRESIST", 100 ],
       [ "TOUGH", 100 ],
-      [ "PRETTY", 100 ],
-      [ "ADRENALINE", 100 ],
-      [ "ROBUST", 100 ],
-      [ "MASOCHIST", 100 ],
-      [ "TRIGGERHAPPY", 100 ],
-      [ "EAGLEEYED", 100 ]
+      [ "PRETTY", 100 ]
     ]
   },
   {
