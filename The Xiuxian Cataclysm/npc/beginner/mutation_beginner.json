@@ -21,14 +21,14 @@
             {
                 "id": "beginner_pure_damage",
                 "message": "你的攻击扭曲了时空！",
-                "npc_message": "%1$ 的攻击扭曲了时空！"
+                "npc_message": "%1$s 的攻击扭曲了时空！"
             }
         ],
         "hit_me_effect": [
             {
                 "id": "beginner_healing",
                 "message": "你受到攻击的部位似乎变成了虚空。",
-                "npc_message": "%1$ 受到攻击的部位似乎变成了虚空。"
+                "npc_message": "%1$s 的攻击扭曲了时空！"
             }
         ]
     }
