@@ -36,9 +36,9 @@
       { "skill": "throw", "level": { "rng": [ 2, 2 ] } },
       { "skill": "unarmed", "level": { "rng": [ 2, 2 ] } }
     ],
-    "worn_override": "NC_MAGIC_PROFESSOR_worn",
-    "carry_override": "NC_MAGIC_PROFESSOR_carry",
-    "weapon_override": "NC_MAGIC_PROFESSOR_weapon",
+    "worn_override": "NC_BEGINNER_worn",
+    "carry_override": "NC_BEGINNER_carry",
+    "weapon_override": "NC_BEGINNER_weapon",
     "traits": [
       [ "hair_white_long", 100 ],
       [ "SKIN_LIGHT", 100 ],
@@ -51,7 +51,6 @@
       [ "GOODCARDIO", 100 ],
       [ "FLEET", 100 ],
       [ "QUICK", 100 ],
-      [ "PARKOUR", 100 ],
       [ "DEFT", 100 ],
       [ "PAINRESIST", 100 ],
       [ "TOUGH", 100 ],
