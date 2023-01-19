@@ -14,10 +14,10 @@
             ],
             "prob": 18
         },
-        { "group": "polygonum_officinalis_group", "damage": [ 1, 4 ] ,"prob": 30 },
+        { "group": "polygonum_officinalis_group","prob": 30 },
         { "item": "call_of_the_abyss_1", "prob": 1 },
         { "item": "call_of_the_abyss_2", "prob": 1 },
-        { "group": "lingqi_group", "damage": [ 1, 4 ] ,"prob": 50 }
+        { "group": "lingqi_group","prob": 50 }
     ]
   }
 ]
