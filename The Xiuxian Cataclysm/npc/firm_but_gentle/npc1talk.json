@@ -1,0 +1,62 @@
+[
+  {
+    "id": [
+      "TALK_FIRM_BUT_GENTLE"
+    ],
+    "type": "talk_topic",
+    "dynamic_line": {
+      "is_by_radio": " *pshhhttt* I'm reading you master, over.",
+      "no": {
+        "has_reason": {
+          "use_reason": true
+        },
+        "no": "怎么了，主人？"
+      }
+    },
+    "speaker_effect": {
+      "sentinel": "sword_init",
+      "opinion": {
+        "trust": 10,
+        "value": 10,
+        "anger": -10,
+        "fear": -10
+      },
+      "condition": {
+        "npc_rule": "allow_pick_up"
+      },
+      "effect": {
+        "toggle_npc_rule": "allow_pick_up"
+      }
+    },
+    "responses": [
+     {
+       "text": "我需要你变回魂魄（运转灵气）",
+       "topic": "TALK_SHOGGOTH_HEART3"
+     },
+     {
+       "text": "一起走吧。",
+       "topic": "TALK_DONE"
+     }
+    ]
+   },
+   {
+    "id": "TALK_SHOGGOTH_HEART3",
+    "type": "talk_topic",
+    "dynamic_line": "好的（变成一团魂魄精华）",
+    "speaker_effect": {
+      "effect": [
+        {
+          "u_spawn_item": "tool_firm_but_gentle",
+          "count": 1
+        },
+        "npc_die"
+      ]
+    },
+    "responses": [
+      {
+        "text": "放到包里",
+        "topic": "TALK_DONE"
+      }
+   ]
+ }
+]
