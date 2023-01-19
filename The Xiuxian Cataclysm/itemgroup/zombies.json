@@ -1,0 +1,23 @@
+ [
+  {
+    "type": "item_group",
+    "id": "san_xiu_group",
+    "//": "散修掉落物品组",
+    "subtype": "distribution",    
+    "entries":[
+        {
+            "distribution":[
+                { "group": "An_alchemy_book_group_1", "prob": 25 },
+                { "group": "law_book_group_1", "prob": 25 },
+                { "group": "Refining_apparatus_book_group_1", "prob": 25 },
+                { "group": "wine_book_group_1", "prob": 25 }
+            ],
+            "prob": 18
+        },
+        { "group": "polygonum_officinalis_group", "damage": [ 1, 4 ] ,"prob": 30 },
+        { "item": "call_of_the_abyss_1", "prob": 1 },
+        { "item": "call_of_the_abyss_2", "prob": 1 },
+        { "group": "lingqi_group", "damage": [ 1, 4 ] ,"prob": 50 }
+    ]
+  }
+]
