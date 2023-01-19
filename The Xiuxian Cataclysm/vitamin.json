@@ -5,7 +5,7 @@
         "vit_type": "counter",
         "name": { "str": "五行灵气·金" },
         "excess": "effect_lingqi_steel",
-         "min": 0,
+        "min": 0,
         "max": 2500,
         "rate": "0 h",
         "disease_excess": [ [ 100, 500 ], [ 501, 2199 ], [ 2200, 2500 ] ]
@@ -26,6 +26,7 @@
         "scaling_mods": {
             "str_mod": [ 2 ]
         },
+        "enchantments": [ "enchantment_lingqi_steel" ],
         "rating": "good"
     },
     {
@@ -90,8 +91,19 @@
         "max_range": 1,
         "max_level": 0,
         "shape": "blast",
-        "message": "你攻击的同时，金灵气汇聚于手中，形成金属尖刺贯穿敌人！",
         "sound_description": "金属贯穿躯体的声音",
         "effect": "attack"
+    },
+    {
+        "type": "enchantment",
+        "id": "enchantment_lingqi_steel",
+        "condition": "ALWAYS",
+        "hit_you_effect": [
+            {
+                "id": "spell_lingqi_steel",
+                "message": "你攻击的同时，金灵气汇聚于手中，形成金属尖刺贯穿敌人！",
+                "npc_message": "%1$攻击的同时，金灵气汇聚于手中，形成金属尖刺贯穿敌人！"
+            }
+        ]
     }
 ]
