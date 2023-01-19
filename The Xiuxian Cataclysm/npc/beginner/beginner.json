@@ -67,13 +67,7 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "bra" },
-      { "item": "mbelt_pockets_greater" },
-      { "item": "stockings" },
-      { "item": "dress_shirt" },
-      { "item": "mboots_sevenleague" },
-      { "item": "skirt" },
-      { "item": "gloves_light" },
+      { "item": "robofac_enviro_suit" },
       { "item": "cloak" },
       { "item": "armguard_lightplate" }
     ]
