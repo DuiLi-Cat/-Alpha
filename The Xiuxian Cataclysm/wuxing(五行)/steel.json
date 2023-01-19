@@ -39,8 +39,23 @@
         "base_mods": {
             "str_mod": [ -8 ]
         },
-        "enchantments": [ "enchantment_lingqi_steel" ],
+        "max_duration": 10,
+        "apply_message": "你的五行内力中金克木，内息紊乱，损伤经脉。",
+        "remove_message": "你的五行内息逐渐调和……",
         "rating": "bad"
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "eoc_steel_restraint_wood",
+        "recurrence": 1 ,
+        "condition": {
+            "and": [
+                { "u_has_effect": "effect_lingqi_steel" },
+                { "u_has_effect": "effect_lingqi_wood" }
+            ]
+        },
+        "run_on_npcs": true,
+        "effect": { "u_add_effect": "effect_lingqi_steel_restraint_wood", "duration": 10 }
     },
     {
         "id": "pill_lingqi_steel",
