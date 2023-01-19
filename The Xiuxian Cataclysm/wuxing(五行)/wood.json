@@ -21,10 +21,10 @@
         ],
         "max_intensity": 3,
         "base_mods": {
-            "str_mod": [ 2 ]
+            "healing_rate": [ 2 ]
         },
         "scaling_mods": {
-            "str_mod": [ 2 ]
+            "healing_rate": [ 2 ]
         },
         "rating": "good"
     },
