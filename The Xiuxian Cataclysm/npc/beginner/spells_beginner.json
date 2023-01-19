@@ -10,5 +10,23 @@
     "shape": "blast",
     "min_damage": -200,
     "max_damage": -200
+  },
+  {
+    "id": "beginner_pure_damage",
+    "type": "SPELL",
+    "name": "初哥杀伤术",
+    "description": "让初哥造成穿透伤的攻击法术",
+    "valid_targets": [ "hostile", "ally" ],
+    "flags": [ "VERBAL", "SOMATIC", "NO_LEGS", "NO_PROJECTILE" ],
+    "min_damage": 20,
+    "max_damage": 20,
+    "damage_type": "pure",
+    "effect_str": ["dark_sight"],
+    "min_range": 1,
+    "max_range": 1,
+    "max_level": 0,
+    "shape": "blast",
+    "sound_description": "尖锐的灵气划破空气",
+    "effect": "attack"
   }
 ]
