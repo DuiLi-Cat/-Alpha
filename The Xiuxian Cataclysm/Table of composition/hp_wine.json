@@ -11,7 +11,7 @@
         "autolearn": true,
         "using": [],
         "qualities": [],
-        "components": [[["LING_QI",50]]]
+        "components": [[["LING_QI",50]],[["polygonum_officinalis_1",5]],[["polygonum_officinalis_2",1]],[["polygonum_officinalis_3",10]]]
     },
     {
         "result": "pam_wine_hp_2",
@@ -25,7 +25,7 @@
         "autolearn": true,
         "using": [],
         "qualities": [],
-        "components": [[["LING_QI",50]]]
+        "components": [[["LING_QI",100]],[["polygonum_officinalis_1",10]],[["polygonum_officinalis_2",1]],[["polygonum_officinalis_3",20]]]
     },
     {
         "result": "pam_wine_hp_3",
@@ -39,7 +39,7 @@
         "autolearn": true,
         "using": [],
         "qualities": [],
-        "components": [[["LING_QI",50]]]
+        "components": [[["LING_QI",150]],[["polygonum_officinalis_1",10]],[["polygonum_officinalis_2",5]],[["polygonum_officinalis_3",10]]]
     },
     {
         "result": "pam_wine_hp_4",
@@ -53,7 +53,7 @@
         "autolearn": true,
         "using": [],
         "qualities": [],
-        "components": [[["LING_QI",50]]]
+        "components": [[["LING_QI",200]],[["polygonum_officinalis_1",20]],[["polygonum_officinalis_2",5]],[["polygonum_officinalis_3",30]]]
     },
     {
         "result": "pam_wine_hp_5",
@@ -67,6 +67,6 @@
         "autolearn": true,
         "using": [],
         "qualities": [],
-        "components": [[["LING_QI",50]]]
+        "components": [[["LING_QI",250]],[["polygonum_officinalis_1",30]],[["polygonum_officinalis_2",10]],[["polygonum_officinalis_3",50]]]
     }
 ]
