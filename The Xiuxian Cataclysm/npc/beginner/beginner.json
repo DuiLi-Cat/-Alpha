@@ -61,5 +61,35 @@
       [ "TRIGGERHAPPY", 100 ],
       [ "EAGLEEYED", 100 ]
     ]
+  },
+  {
+    "id": "NC_BEGINNER_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "bra" },
+      { "item": "mbelt_pockets_greater" },
+      { "item": "stockings" },
+      { "item": "dress_shirt" },
+      { "item": "mboots_sevenleague" },
+      { "item": "skirt" },
+      { "item": "gloves_light" },
+      { "item": "cloak" },
+      { "item": "armguard_lightplate" }
+    ]
+  },
+  {
+    "id": "NC_BEGINNER_weapon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "jian" } ]
+  },
+  {
+    "id": "NC_BEGINNER_carry",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "smart_phone" }
+    ]
   }
 ]
