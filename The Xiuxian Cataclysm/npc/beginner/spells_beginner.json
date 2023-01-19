@@ -8,6 +8,9 @@
     "flags": [ "CONCENTRATE", "SOMATIC", "SILENT", "NO_PROJECTILE" ],
     "effect": "attack",
     "shape": "blast",
+    "effect_str": "cureall",
+    "min_duration": 1000000,
+    "max_duration": 1000000,
     "min_damage": -200,
     "max_damage": -200
   },
@@ -21,7 +24,7 @@
     "min_damage": 20,
     "max_damage": 20,
     "damage_type": "pure",
-    "effect_str": "dark_sight",
+    "effect_str": "onfire",
     "min_duration": 1000000,
     "max_duration": 1000000,
     "min_range": 1,
