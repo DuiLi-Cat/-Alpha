@@ -46,7 +46,7 @@
     "speaker_effect": {
       "effect": [
         {
-          "u_buy_item": "tool_firm_but_gentle",
+          "u_spawn_item": "tool_firm_but_gentle",
           "count": 1
         },
         "npc_die"
