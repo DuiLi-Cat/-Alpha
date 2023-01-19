@@ -13,6 +13,21 @@
   },
   {
     "type": "item_group",
+    "id": "polygonum_officinalis_group",
+    "//": "参天蓼",
+    "subtype": "distribution",
+    "entries":[
+       { "item": "polygonum_officinalis_1", "count": [1, 5 ], "prob": 50 },
+       { "item": "polygonum_officinalis_2", "prob": 50 },
+       { "item": "polygonum_officinalis_3", "count": [1, 10 ], "prob": 100 },
+       { "item": "polygonum_officinalis_4", "prob": 70 },
+       { "item": "polygonum_officinalis_5", "prob": 1 },
+       { "item": "polygonum_officinalis_6", "prob": 10 },
+       { "item": "polygonum_officinalis_7", "prob": 1 }
+   ]
+  },
+  {
+    "type": "item_group",
     "id": "manual_magic_deep_bead_group",
     "//": "魔渊珠",
     "subtype": "distribution",
