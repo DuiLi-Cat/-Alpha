@@ -37,7 +37,19 @@
             "你的五行内力中金克木，内息紊乱，损伤经脉。"
         ],
         "base_mods": {
-            "str_mod": [ -8 ]
+            "per_mod": [ -6 ],
+            "dex_mod": [ -6 ],
+            "str_mod": [ -6 ],
+            "int_mod": [ -6 ],
+            "speed_mod": [ -40 ],
+            "hurt_min": [ 10 ],
+            "hurt_max": [ 20 ],
+            "hurt_chance": [ 100 ],
+            "hurt_tick": [ 75 ],
+            "pain_min": [ 10 ],
+            "pain_max": [ 20 ],
+            "pain_chance": [ 100 ],
+            "pain_tick": [ 75 ]
         },
         "max_duration": 10,
         "apply_message": "你的五行内力中金克木，内息紊乱，损伤经脉。",
