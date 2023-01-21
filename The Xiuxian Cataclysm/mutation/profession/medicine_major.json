@@ -29,5 +29,23 @@
         },
         "run_on_npcs": true,
         "effect": { "u_add_trait": "mutate_medicine_major_XIAN", "duration": 10 }
+    },
+    {
+        "id": "grimoire_medicine_major",
+        "type": "TOOL",
+        "symbol": "V",
+        "color": "white",
+        "name": "<color_pink>灵药纲</color>",
+        "chat_topics": [ "TALK_GRIMOIRE_MEDICINE_MAJOR" ],
+        "description": "药修的进修读物，罗列了众多仙药的纲目和治疗的仙法。",
+        "price": 10000,
+        "material": [ "paper" ],
+        "weight": 1,
+        "volume": 1,
+        "use_action": {
+            "type": "effect_on_conditions",
+            "description": "药修进阶",
+            "effect_on_conditions": [ { "id": "EOC_TALK_GRIMOIRE_MEDICINE_MAJOR", "effect": [ "open_dialogue" ] } ]
+        }
     }
 ]
