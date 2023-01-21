@@ -35,7 +35,8 @@
                 "condition": {
                     "and": [
                         { "u_has_trait": "XIAN_1" },
-                        { "not": { "u_has_trait": "mutate_medicine_major" } }
+                        { "not": { "u_has_trait": "mutate_medicine_major" } },
+                        { "not": { "u_has_trait": "mutate_mi_major" } }
                     ]
                 },
                 "text": "吾愿习得『密修』",
