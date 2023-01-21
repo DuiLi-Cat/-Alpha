@@ -1,0 +1,119 @@
+[
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_1",
+        "name": ["修士的祝福（Lv.1）"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [2],
+            "dex_mod": [2],
+            "per_mod": [2],
+            "int_mod": [2]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_2",
+        "name": ["修士的祝福（Lv.2）"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [3],
+            "dex_mod": [3],
+            "per_mod": [3],
+            "int_mod": [3]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_3",
+        "name": ["修士的祝福（Lv.3）"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [2],
+            "dex_mod": [2],
+            "per_mod": [2],
+            "int_mod": [2]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_4",
+        "name": ["修士的祝福（Lv.4）"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [3],
+            "dex_mod": [3],
+            "per_mod": [3],
+            "int_mod": [3]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_5",
+        "name": ["修士的祝福（Lv.5）"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [4],
+            "dex_mod": [4],
+            "per_mod": [4],
+            "int_mod": [4]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_6",
+        "name": ["猛虎觉醒"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [6],
+            "dex_mod": [3],
+            "per_mod": [3],
+            "int_mod": [3]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_7",
+        "name": ["灵魂呼唤"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [3],
+            "dex_mod": [6],
+            "per_mod": [3],
+            "int_mod": [3]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_8",
+        "name": ["妈妈生的"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [3],
+            "dex_mod": [3],
+            "per_mod": [6],
+            "int_mod": [3]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "attribute_addition_xianyao_effect_9",
+        "name": ["命运窥视"],
+        "max_intensity": 1,
+        "apply_message": "你体内的灵气突然变的更容易运转，各项属性提升了",
+        "base_mods":{
+            "str_mod": [3],
+            "dex_mod": [3],
+            "per_mod": [3],
+            "int_mod": [6]
+        }
+    }
+]
