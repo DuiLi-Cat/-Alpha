@@ -52,7 +52,7 @@
             },
             { 
                 "condition": {
-                    "and": [
+                    "or": [
                         { "u_has_trait": "mutate_medicine_major" }
                     ]
                 },

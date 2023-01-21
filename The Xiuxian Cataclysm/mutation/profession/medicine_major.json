@@ -47,5 +47,33 @@
             "description": "药修进阶",
             "effect_on_conditions": [ { "id": "EOC_TALK_GRIMOIRE_MEDICINE_MAJOR", "effect": [ "open_dialogue" ] } ]
         }
+    },
+    {
+        "type": "talk_topic",
+        "id": "TALK_GRIMOIRE_MEDICINE_MAJOR",
+        "dynamic_line": "灵药者，灵气化植也……\n（未习得丹修、密修，才能掌握药修学识）\n（药修法术升至4级或以上，可读此书精进法术）",
+        "responses": [
+            { 
+                "condition": {
+                    "and": [
+                        { "not": { "u_has_trait": "mutate_medicine_major" } },
+                        { "not": { "u_has_trait": "mutate_dan_major" } },
+                        { "not": { "u_has_trait": "mutate_mi_major" } }
+                    ]
+                },
+                "text": "吾愿习得『药修』",
+                "topic": "TALK_GRIMOIRE_MEDICINE_MAJOR_SUCCESS",
+                "effect": { "u_add_trait": "mutate_medicine_major" }
+            },
+            { "text": "容我再虑。", "topic": "TALK_DONE" }
+        ]
+    },
+    {
+        "type": "talk_topic",
+        "id": "TALK_GRIMOIRE_MEDICINE_MAJOR_SUCCESS",
+        "dynamic_line": "汝习得『药修』",
+        "responses": [
+            { "text": "（喜不自胜）", "topic": "TALK_DONE" }
+        ]
     }
 ]
