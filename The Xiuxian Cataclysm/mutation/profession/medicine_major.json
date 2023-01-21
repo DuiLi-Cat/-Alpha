@@ -65,6 +65,34 @@
                 "topic": "TALK_GRIMOIRE_MEDICINE_MAJOR_SUCCESS",
                 "effect": { "u_add_trait": "mutate_medicine_major" }
             },
+            {
+                "condition": { "compare_int": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_1" }, ">=", { "const": 4 } ] },
+                "text": "进阶『初等治疗术』",
+                "topic": "TALK_NONE",
+                "effect": [
+                    { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_1" }, "=", { "const": -1 } ] },
+                    { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_2" }, "=", { "const": 0 } ] },
+                    { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_4" }, "=", { "const": 0 } ] }
+                ]
+            },
+            {
+                "condition": { "compare_int": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_2" }, ">=", { "const": 4 } ] },
+                "text": "进阶『初等治疗术』",
+                "topic": "TALK_NONE",
+                "effect": [
+                    { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_2" }, "=", { "const": -1 } ] },
+                    { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_3" }, "=", { "const": 0 } ] }
+                ]
+            },
+            {
+                "condition": { "compare_int": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_4" }, ">=", { "const": 4 } ] },
+                "text": "进阶『初等治疗术』",
+                "topic": "TALK_NONE",
+                "effect": [
+                    { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_4" }, "=", { "const": -1 } ] },
+                    { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_5" }, "=", { "const": 0 } ] }
+                ]
+            },
             { "text": "容我再虑。", "topic": "TALK_DONE" }
         ]
     },
