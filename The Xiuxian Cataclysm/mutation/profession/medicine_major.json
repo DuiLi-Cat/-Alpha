@@ -6,6 +6,28 @@
         "points":1,
         "visibility":0,
         "ugliness":0,
-        "description":"专注于研究制药的修仙者。"
-     }
+        "description":"专注于研究制药的修习者。"
+    },
+    {
+        "type":"mutation",
+        "id":"mutate_medicine_major_XIAN",
+        "name":"仙药师",
+        "points":1,
+        "visibility":0,
+        "ugliness":0,
+        "description":"专注于研究制药的仙修。"
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "eoc_mutate_medicine_major_XIAN",
+        "recurrence": 1 ,
+        "condition": {
+            "and": [
+                { "u_has_trait": "mutate_medicine_major" },
+                { "u_has_trait": "XIAN_1" }
+            ]
+        },
+        "run_on_npcs": true,
+        "effect": { "u_add_trait": "mutate_medicine_major_XIAN", "duration": 10 }
+    }
 ]
