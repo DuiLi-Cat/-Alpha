@@ -19,7 +19,7 @@
    "visibility":0,
    "ugliness":0,
    "description":"你选择了仙修这一途径进行修真",
-   "spells_learned": [ [ "multate_XIAN_1", 0 ] ],
+   "spells_learned": [ [ "mutate_XIAN_1", 0 ] ],
    "changes_to" : ["LIAN_QI_XIAN"],
    "threshreq": ["XIAN_1"],
    "starting_trait" : true
@@ -46,7 +46,7 @@
     "stamina_regen_modifier" : 1.05,
     "overmap_sight" : 5,
     "threshreq": ["XIAN_1"],
-    "spells_learned": [ [ "multate_XIAN_2", 0 ] ],
+    "spells_learned": [ [ "mutate_XIAN_2", 0 ] ],
     "changes_to" : ["ZHU_JI_XIAN"],
     "prereqs" : ["XIAN_2"]
  },
@@ -73,7 +73,7 @@
     "overmap_sight" : 10,
     "threshreq": ["XIAN_1"],
     "changes_to" : ["JIN_DAN_XIAN"],
-    "spells_learned": [ [ "multate_XIAN_3", 0 ] ],
+    "spells_learned": [ [ "mutate_XIAN_3", 0 ] ],
     "prereqs" : ["LIAN_QI_XIAN"]
  },
  {
@@ -99,7 +99,7 @@
     "overmap_sight" : 15,
     "threshreq": ["XIAN_1"],
     "changes_to" : ["YUAN_YING_XIAN"],
-    "spells_learned": [ [ "multate_XIAN_4", 0 ] ],
+    "spells_learned": [ [ "mutate_XIAN_4", 0 ] ],
     "prereqs" : ["ZHU_JI_XIAN"]
  },
  {
@@ -125,7 +125,7 @@
     "overmap_sight" : 20,
     "threshreq": ["XIAN_1"],
     "changes_to" : ["HUA_SHEN_XIAN"],
-    "spells_learned": [ [ "multate_XIAN_5", 0 ] ],
+    "spells_learned": [ [ "mutate_XIAN_5", 0 ] ],
     "prereqs" : ["JIN_DAN_XIAN"]
  },
  {
@@ -151,7 +151,7 @@
     "overmap_sight" : 25,
     "threshreq": ["XIAN_1"],
     "changes_to" : ["LIAN_XU_XIAN"],
-    "spells_learned": [ [ "multate_XIAN_6", 0 ] ],
+    "spells_learned": [ [ "mutate_XIAN_6", 0 ] ],
     "prereqs" : ["YUAN_YING_XIAN"]
  },
  {
@@ -177,7 +177,7 @@
     "overmap_sight" : 30,
     "threshreq": ["XIAN_1"],
     "changes_to" : ["HE_TI_XIAN"],
-    "spells_learned": [ [ "multate_XIAN_7", 0 ] ],
+    "spells_learned": [ [ "mutate_XIAN_7", 0 ] ],
     "prereqs" : ["HUA_SHEN_XIAN"]
  },
  {
@@ -203,7 +203,7 @@
     "overmap_sight" : 35,
     "threshreq": ["XIAN_1"],
     "changes_to" : ["DA_CHENG_XIAN"],
-    "spells_learned": [ [ "multate_XIAN_8", 0 ] ],
+    "spells_learned": [ [ "mutate_XIAN_8", 0 ] ],
     "prereqs" : ["LIAN_XU_XIAN"]
  },
  {
@@ -229,7 +229,7 @@
     "overmap_sight" : 40,
     "threshreq": ["XIAN_1"],
     "changes_to" : ["DU_JIE_XIAN"],
-    "spells_learned": [ [ "multate_XIAN_9", 0 ] ],
+    "spells_learned": [ [ "mutate_XIAN_9", 0 ] ],
     "prereqs" : ["HE_TI_XIAN"]
  },
  {

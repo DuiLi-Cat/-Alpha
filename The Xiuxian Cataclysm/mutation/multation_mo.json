@@ -1,12 +1,12 @@
 [
     {
         "type": "SPELL",
-        "id": "multate_MO_base",
+        "id": "mutate_MO_base",
         "name": { "str": "成魔" },
         "effect": "mutate",
         "shape": "blast",
         "effect_str": "MO_1",
-        "extra_effects":[{"id":"multate_MO_0"}],
+        "extra_effects":[{"id":"mutate_MO_0"}],
         "description": "令凡人堕入魔道的法术",
         "message": "你选择了修魔……",
         "min_damage": 10000,
@@ -16,7 +16,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_0",
+        "id": "mutate_MO_0",
         "name": { "str": "成魔" },
         "effect": "mutate",
         "shape": "blast",
@@ -30,7 +30,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_1",
+        "id": "mutate_MO_1",
         "name": { "str": "炼气"},
         "effect": "mutate",
         "shape": "blast",
@@ -45,7 +45,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_2",
+        "id": "mutate_MO_2",
         "name": { "str": "筑基" },
         "effect": "mutate",
         "shape": "blast",
@@ -60,7 +60,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_3",
+        "id": "mutate_MO_3",
         "name": { "str": "金丹" },
         "effect": "mutate",
         "shape": "blast",
@@ -75,7 +75,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_4",
+        "id": "mutate_MO_4",
         "name": { "str": "元婴" },
         "effect": "mutate",
         "shape": "blast",
@@ -90,7 +90,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_5",
+        "id": "mutate_MO_5",
         "name": { "str": "化神" },
         "effect": "mutate",
         "shape": "blast",
@@ -105,7 +105,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_6",
+        "id": "mutate_MO_6",
         "name": { "str": "炼虚" },
         "effect": "mutate",
         "shape": "blast",
@@ -120,7 +120,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_7",
+        "id": "mutate_MO_7",
         "name": { "str": "合体" },
         "effect": "mutate",
         "shape": "blast",
@@ -135,7 +135,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_MO_8",
+        "id": "mutate_MO_8",
         "name": { "str": "大乘" },
         "effect": "mutate",
         "shape": "blast",
@@ -150,7 +150,7 @@
     },
 {
         "type": "SPELL",
-        "id": "multate_MO_9",
+        "id": "mutate_MO_9",
         "name": { "str": "渡劫" },
         "effect": "mutate",
         "shape": "blast",

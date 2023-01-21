@@ -1,12 +1,12 @@
 [
     {
         "type": "SPELL",
-        "id": "multate_XIAN_base",
+        "id": "mutate_XIAN_base",
         "name": { "str": "成仙" },
         "effect": "mutate",
         "shape": "blast",
         "effect_str": "XIAN_1", 
-        "extra_effects":[{"id":"multate_XIAN_0"}],
+        "extra_effects":[{"id":"mutate_XIAN_0"}],
         "description": "令凡人肉身成仙的法术",
         "message": "你选择了修仙……",
         "min_damage": 10000,
@@ -17,7 +17,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_0",
+        "id": "mutate_XIAN_0",
         "name": { "str": "成仙" },
         "effect": "mutate",
         "shape": "blast",
@@ -31,7 +31,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_1",
+        "id": "mutate_XIAN_1",
         "name": { "str": "炼气"},
         "effect": "mutate",
         "shape": "blast",
@@ -46,7 +46,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_2",
+        "id": "mutate_XIAN_2",
         "name": { "str": "筑基" },
         "effect": "mutate",
         "shape": "blast",
@@ -61,7 +61,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_3",
+        "id": "mutate_XIAN_3",
         "name": { "str": "金丹" },
         "effect": "mutate",
         "shape": "blast",
@@ -76,7 +76,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_4",
+        "id": "mutate_XIAN_4",
         "name": { "str": "元婴" },
         "effect": "mutate",
         "shape": "blast",
@@ -91,7 +91,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_5",
+        "id": "mutate_XIAN_5",
         "name": { "str": "化神" },
         "effect": "mutate",
         "shape": "blast",
@@ -106,7 +106,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_6",
+        "id": "mutate_XIAN_6",
         "name": { "str": "炼虚" },
         "effect": "mutate",
         "shape": "blast",
@@ -121,7 +121,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_7",
+        "id": "mutate_XIAN_7",
         "name": { "str": "合体" },
         "effect": "mutate",
         "shape": "blast",
@@ -136,7 +136,7 @@
     },
     {
         "type": "SPELL",
-        "id": "multate_XIAN_8",
+        "id": "mutate_XIAN_8",
         "name": { "str": "大乘" },
         "effect": "mutate",
         "shape": "blast",
@@ -151,7 +151,7 @@
     },
 {
         "type": "SPELL",
-        "id": "multate_XIAN_9",
+        "id": "mutate_XIAN_9",
         "name": { "str": "渡劫" },
         "effect": "mutate",
         "shape": "blast",

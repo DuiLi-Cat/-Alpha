@@ -19,7 +19,7 @@
    "visibility":0,
    "ugliness":0,
    "description":"你选择了魔修这一途径进行修真",
-   "spells_learned": [ [ "multate_MO_1", 0 ] ],
+   "spells_learned": [ [ "mutate_MO_1", 0 ] ],
    "changes_to" : ["LIAN_QI_MO"],
    "threshreq": ["MO_1"],
    "starting_trait" : true
@@ -47,7 +47,7 @@
     "stamina_regen_modifier" : 1.1,
     "overmap_sight" : 5,
     "threshreq": ["MO_1"],
-    "spells_learned": [ [ "multate_MO_2", 0 ] ],
+    "spells_learned": [ [ "mutate_MO_2", 0 ] ],
     "prereqs" : ["MO_2"],
     "changes_to" : ["ZHU_JI_MO"]
  },
@@ -74,7 +74,7 @@
     "stamina_regen_modifier" : 1.2,
     "overmap_sight" : 10,
     "threshreq": ["MO_1"],
-    "spells_learned": [ [ "multate_MO_3", 0 ] ],
+    "spells_learned": [ [ "mutate_MO_3", 0 ] ],
     "prereqs" : ["LIAN_QI_MO"],
     "changes_to" : ["JIN_DAN_MO"]
  },
@@ -101,7 +101,7 @@
     "stamina_regen_modifier" : 1.3,
     "overmap_sight" : 15,
     "threshreq": ["MO_1"],
-    "spells_learned": [ [ "multate_MO_4", 0 ] ],
+    "spells_learned": [ [ "mutate_MO_4", 0 ] ],
     "changes_to" : ["YUAN_YING_MO"],
     "prereqs" : ["ZHU_JI_MO"]
  },
@@ -128,7 +128,7 @@
     "stamina_regen_modifier" : 1.4,
     "overmap_sight" : 20,
     "threshreq": ["MO_1"],
-    "spells_learned": [ [ "multate_MO_5", 0 ] ],
+    "spells_learned": [ [ "mutate_MO_5", 0 ] ],
     "changes_to" : ["HUA_SHEN_MO"],
     "prereqs" : ["JIN_DAN_MO"]
  },
@@ -155,7 +155,7 @@
     "stamina_regen_modifier" : 1.5,
     "overmap_sight" : 25,
     "threshreq": ["MO_1"],
-    "spells_learned": [ [ "multate_MO_6", 0 ] ],
+    "spells_learned": [ [ "mutate_MO_6", 0 ] ],
     "changes_to" : ["LIAN_XU_MO"],
     "prereqs" : ["YUAN_YING_MO"]
  },
@@ -182,7 +182,7 @@
     "stamina_regen_modifier" : 1.6,
     "overmap_sight" : 30,
     "threshreq": ["MO_1"],
-    "spells_learned": [ [ "multate_MO_7", 0 ] ],
+    "spells_learned": [ [ "mutate_MO_7", 0 ] ],
     "changes_to" : ["HE_TI_MO"],
     "prereqs" : ["HUA_SHEN_MO"]
  },
@@ -209,7 +209,7 @@
     "stamina_regen_modifier" : 1.7,
     "overmap_sight" : 35,
     "threshreq": ["MO_1"],
-    "spells_learned": [ [ "multate_MO_8", 0 ] ],
+    "spells_learned": [ [ "mutate_MO_8", 0 ] ],
     "changes_to" : ["DA_CHENG_MO"],
     "prereqs" : ["LIAN_XU_MO"]
  },
@@ -236,7 +236,7 @@
     "stamina_regen_modifier" : 1.8,
     "overmap_sight" : 40,
     "threshreq": ["MO_1"],
-    "spells_learned": [ [ "multate_MO_9", 0 ] ],
+    "spells_learned": [ [ "mutate_MO_9", 0 ] ],
     "changes_to" : ["DU_JIE_MO"],
     "prereqs" : ["HE_TI_MO"]
  },
