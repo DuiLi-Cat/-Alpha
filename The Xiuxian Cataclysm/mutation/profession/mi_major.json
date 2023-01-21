@@ -39,11 +39,24 @@
                     ]
                 },
                 "text": "吾愿习得『密修』",
-                "success": {
-                    "topic": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS",
-                    "effect": { "u_add_trait": "TALK_GRIMOIRE_MI_MAJOR_FAILURE" }
+                "topic": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS",
+                "effect": { "u_add_trait": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS" }
+            },
+            { 
+                "condition": {
+                    "not": { "u_has_trait": "XIAN_1" }
                 },
-                "failure": { "topic": "TALK_MISSION_FAILURE" }
+                "text": "未入仙家，难以理解（你未成为『仙修』）",
+                "topic": "TALK_DONE"
+            },
+            { 
+                "condition": {
+                    "and": [
+                        { "u_has_trait": "mutate_medicine_major" }
+                    ]
+                },
+                "text": "曾习他种杂学，未入至纯之境（你曾修习其他通用职业）",
+                "topic": "TALK_DONE"
             },
             { "text": "容我再虑。", "topic": "TALK_DONE" }
         ]
@@ -54,14 +67,6 @@
         "dynamic_line": "汝经考验，习得『密修』",
         "responses": [
             { "text": "（喜不自胜）", "topic": "TALK_DONE" }
-        ]
-    },
-    {
-        "type": "talk_topic",
-        "id": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS",
-        "dynamic_line": "汝有杂念，不可习得『密修』",
-        "responses": [
-            { "text": "算了。", "topic": "TALK_DONE" }
         ]
     }
 ]
