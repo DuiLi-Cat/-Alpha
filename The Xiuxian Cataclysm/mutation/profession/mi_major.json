@@ -1,0 +1,67 @@
+[
+    {
+        "type":"mutation",
+        "id":"mutate_mi_major",
+        "name":"密修",
+        "points":1,
+        "visibility":0,
+        "ugliness":0,
+        "description":"专注于研究仙道秘法的修习者。"
+    },
+    {
+        "id": "grimoire_mi_major",
+        "type": "TOOL",
+        "symbol": "V",
+        "color": "white",
+        "name": "<color_pink>仙修密藏</color>",
+        "chat_topics": [ "TALK_GRIMOIRE_MI_MAJOR" ],
+        "description": "仙修的不传之秘。",
+        "price": 1000000,
+        "material": [ "paper" ],
+        "weight": 1,
+        "volume": 1,
+        "use_action": {
+        "type": "effect_on_conditions",
+        "description": "密修进阶",
+        "effect_on_conditions": [ { "id": "EOC_TALK_GRIMOIRE_MI_MAJOR", "effect": [ "open_dialogue" ] } ]
+        }
+    },
+    {
+        "type": "talk_topic",
+        "id": "TALK_GRIMOIRE_MI_MAJOR",
+        "dynamic_line": "唯一心修习仙道而无杂念者，可得『密修』之玄妙……\n（未习得药修、丹修、器修、符修、法修、武修、剑修，才能领悟不传之秘）",
+        "responses": [
+            { 
+                "condition": {
+                    "and": [
+                        { "u_has_trait": "XIAN_1" },
+                        { "not": { "u_has_trait": "mutate_medicine_major" } }
+                    ]
+                },
+                "text": "吾愿习得『密修』",
+                "success": {
+                    "topic": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS",
+                    "effect": { "u_add_trait": "TALK_GRIMOIRE_MI_MAJOR_FAILURE" }
+                },
+                "failure": { "topic": "TALK_MISSION_FAILURE" }
+            },
+            { "text": "容我再虑。", "topic": "TALK_DONE" }
+        ]
+    },
+    {
+        "type": "talk_topic",
+        "id": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS",
+        "dynamic_line": "汝经考验，习得『密修』",
+        "responses": [
+            { "text": "（喜不自胜）", "topic": "TALK_DONE" }
+        ]
+    },
+    {
+        "type": "talk_topic",
+        "id": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS",
+        "dynamic_line": "汝有杂念，不可习得『密修』",
+        "responses": [
+            { "text": "算了。", "topic": "TALK_DONE" }
+        ]
+    }
+]
