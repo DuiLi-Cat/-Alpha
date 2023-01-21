@@ -77,7 +77,7 @@
             },
             {
                 "condition": { "compare_int": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_2" }, ">=", { "const": 4 } ] },
-                "text": "进阶『初等治疗术』",
+                "text": "进阶『中等治疗术』",
                 "topic": "TALK_NONE",
                 "effect": [
                     { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_2" }, "=", { "const": -1 } ] },
@@ -86,7 +86,7 @@
             },
             {
                 "condition": { "compare_int": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_4" }, ">=", { "const": 4 } ] },
-                "text": "进阶『初等治疗术』",
+                "text": "进阶『治疗援护』",
                 "topic": "TALK_NONE",
                 "effect": [
                     { "arithmetic": [ { "u_val": "spell_level", "spell": "iatrotechnics_xianyao_4" }, "=", { "const": -1 } ] },
