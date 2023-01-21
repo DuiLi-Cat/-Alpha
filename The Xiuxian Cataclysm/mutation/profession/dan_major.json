@@ -1,7 +1,7 @@
 [
     {
         "type":"mutation",
-        "id":"mutate_medicine_major",
+        "id":"mutate_dan_major",
         "name":"丹修",
         "points":1,
         "visibility":0,
