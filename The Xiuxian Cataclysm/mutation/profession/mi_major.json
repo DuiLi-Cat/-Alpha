@@ -40,7 +40,7 @@
                 },
                 "text": "吾愿习得『密修』",
                 "topic": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS",
-                "effect": { "u_add_trait": "TALK_GRIMOIRE_MI_MAJOR_SUCCESS" }
+                "effect": { "u_add_trait": "mutate_mi_major" }
             },
             { 
                 "condition": {
