@@ -1,10 +1,10 @@
 [
     {
-        "id": "vitamin_lingqi_wood",
+        "id": "vitamin_lingqi_earth",
         "type": "vitamin",
         "vit_type": "counter",
-        "name": { "str": "五行灵气·木" },
-        "excess": "effect_lingqi_wood",
+        "name": { "str": "五行灵气·土" },
+        "excess": "effect_lingqi_earth",
         "min": 0,
         "max": 2500,
         "rate": "0 h",
@@ -12,12 +12,12 @@
     },
     {
         "type": "effect_type",
-        "id": "effect_lingqi_wood",
-        "name": [ "木·破土而出", "木·生生不息", "木·森罗万象" ],
+        "id": "effect_lingqi_earth",
+        "name": [ "土·灰头土脸", "土·簸土扬沙", "土·半截入土" ],
         "desc": [
-            "木属性的五行灵气在你体内微微运转。",
-            "木属性的五行灵气在你体内急速运转。",
-            "木属性的五行灵气在你周身猛烈散发。"
+            "土属性的五行灵气在你体内微微运转。",
+            "土属性的五行灵气在你体内急速运转。",
+            "土属性的五行灵气在你周身猛烈散发。"
         ],
         "max_intensity": 3,
         "base_mods": {
@@ -30,10 +30,10 @@
     },
     {
         "type": "effect_type",
-        "id": "effect_lingqi_wood_restraint_earth",
-        "name": [ "内息紊乱·木克土" ],
+        "id": "effect_lingqi_earth_restraint_water",
+        "name": [ "内息紊乱·土克水" ],
         "desc": [
-            "你的五行内力中木克土，内息紊乱，损伤经脉。"
+            "你的五行内力中土克水，内息紊乱，损伤经脉。"
         ],
         "base_mods": {
             "per_mod": [ -6 ],
@@ -51,32 +51,32 @@
             "pain_tick": [ 75 ]
         },
         "max_duration": 10,
-        "apply_message": "你的五行内力中木克土，内息紊乱，损伤经脉。",
+        "apply_message": "你的五行内力中土克水，内息紊乱，损伤经脉。",
         "remove_message": "你的五行内息逐渐调和……",
         "rating": "bad"
     },
     {
         "type": "effect_on_condition",
-        "id": "eoc_wood_restraint_earth",
+        "id": "eoc_earth_restraint_water",
         "recurrence": 1 ,
         "condition": {
             "and": [
-                { "u_has_effect": "effect_lingqi_wood" },
-                { "u_has_effect": "effect_lingqi_earth" }
+                { "u_has_effect": "effect_lingqi_earth" },
+                { "u_has_effect": "effect_lingqi_water" }
             ]
         },
         "run_on_npcs": true,
-        "effect": { "u_add_effect": "effect_lingqi_wood_restraint_earth", "duration": 10 }
+        "effect": { "u_add_effect": "effect_lingqi_earth_restraint_water", "duration": 10 }
     },
     {
-        "id": "pill_lingqi_wood",
+        "id": "pill_lingqi_earth",
         "type": "COMESTIBLE",
         "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
-        "name": {"str": "五行丹·木"},
-        "description": "获得少量木属五行灵气",
+        "name": {"str": "五行丹·土"},
+        "description": "获得少量土属五行灵气",
         "price": "1000 USD",
         "material": [
             "lingqi"
@@ -88,19 +88,19 @@
             "activation_message": "你服用了 %s。",
             "vitamins": [
                 [ "iron", 24, 48 ],
-                [ "vitamin_lingqi_wood", 100, 100 ]
+                [ "vitamin_lingqi_earth", 100, 100 ]
             ]
         }
     },
     {
-        "id": "pill_lingqi-_wood",
+        "id": "pill_lingqi-_earth",
         "type": "COMESTIBLE",
         "comestible_type": "MED",
         "category": "other",
         "symbol": "S",
         "color": "white",
-        "name": {"str": "逆五行丹·木"},
-        "description": "减少少量木属五行灵气",
+        "name": {"str": "逆五行丹·土"},
+        "description": "减少少量土属五行灵气",
         "price": "1000 USD",
         "material": [
             "lingqi"
@@ -112,15 +112,15 @@
             "activation_message": "你服用了 %s。",
             "vitamins": [
                 [ "iron", 24, 48 ],
-                [ "vitamin_lingqi_wood", -100, -100 ]
+                [ "vitamin_lingqi_earth", -100, -100 ]
             ]
         }
     },
     {
-        "id": "spell_lingqi_wood",
+        "id": "spell_lingqi_earth",
         "type": "SPELL",
-        "name": "灵气爆发·木",
-        "description": "木灵气爆发",
+        "name": "灵气爆发·土",
+        "description": "土灵气爆发",
         "valid_targets": [ "hostile", "ally" ],
         "flags": [ "VERBAL", "SOMATIC", "NO_LEGS", "NO_PROJECTILE" ],
         "min_damage": 20,
@@ -130,18 +130,18 @@
         "max_range": 1,
         "max_level": 0,
         "shape": "blast",
-        "sound_description": "木属贯穿躯体的声音",
+        "sound_description": "土属贯穿躯体的声音",
         "effect": "attack"
     },
     {
         "type": "enchantment",
-        "id": "enchantment_lingqi_wood",
+        "id": "enchantment_lingqi_earth",
         "condition": "ALWAYS",
         "hit_you_effect": [
             {
-                "id": "spell_lingqi_wood",
-                "message": "你攻击的同时，木灵气汇聚于手中，形成木属尖刺贯穿敌人！",
-                "npc_message": "%1$s 攻击的同时，木灵气汇聚于手中，形成木属尖刺贯穿敌人！"
+                "id": "spell_lingqi_earth",
+                "message": "你攻击的同时，土灵气汇聚于手中，形成土属尖刺贯穿敌人！",
+                "npc_message": "%1$s 攻击的同时，土灵气汇聚于手中，形成土属尖刺贯穿敌人！"
             }
         ]
     }
