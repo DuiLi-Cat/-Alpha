@@ -27,7 +27,7 @@
                 { "u_has_trait": "XIAN_1" }
             ]
         },
-        "run_on_npcs": true,
+        "run_for_npcs": true,
         "effect": { "u_add_trait": "mutate_medicine_major_XIAN", "duration": 10 }
     },
     {
