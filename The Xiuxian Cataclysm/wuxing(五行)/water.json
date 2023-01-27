@@ -67,6 +67,7 @@
             ]
         },
         "run_for_npcs": true,
+        "global": true,
         "effect": { "u_add_effect": "effect_lingqi_water_restraint_fire", "duration": 10 }
     },
     {
